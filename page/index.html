@@ -333,9 +333,31 @@
     .countdown-unit { min-width: 58px; padding: 10px 12px; }
     .countdown-num { font-size: 1.4rem; }
     .modal-body { padding: 20px 20px 28px; }
+
+
+
+
 	
 	
   }
+
+    footer{position:relative;z-index:2;text-align:center;padding:40px 24px 60px;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:12px}
+  footer a{color:var(--accent);text-decoration:none}
+
+
+  header{position:relative;z-index:2;padding:80px 24px 40px;text-align:center}
+  .kicker{font-family:'JetBrains Mono',monospace;color:var(--accent);letter-spacing:.3em;font-size:12px;text-transform:uppercase;margin-bottom:16px;animation:fadeUp .8s ease both}
+  h1{font-size:clamp(48px,9vw,120px);line-height:.95;font-weight:700;letter-spacing:-.04em;animation:fadeUp 1s .1s ease both}
+  h1 .glitch{background:linear-gradient(90deg,var(--accent),var(--accent-2),var(--accent-3),var(--accent));background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:slide 6s linear infinite}
+  @keyframes slide{to{background-position:300% 0}}
+  .sub{margin-top:18px;color:var(--muted);max-width:620px;margin-inline:auto;font-size:18px;animation:fadeUp 1s .2s ease both}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+
+
+
+
+
 </style>
 </head>
 <body>
@@ -440,6 +462,11 @@
     </div>
   </div>
 </div>
+
+
+<footer>
+  built with ♥ just to see my lil one smile ;)
+</footer>
 
 <script>
 // ====================================================
