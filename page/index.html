@@ -660,7 +660,7 @@ tabs.addEventListener('scroll', () => {
 let movies = [];
 
 async function loadMovies() {
-  const { data, error } = await supabase
+  const { data, error } = await supabaseClient
     .from('movies')
     .select('*')
     .order('created_at', { ascending: false });
@@ -672,8 +672,17 @@ async function loadMovies() {
 }
 
 
+let moviesLoaded = false;
+
+async function ensureMoviesLoaded() {
+  if (moviesLoaded) return;
+  await loadMovies();
+  moviesLoaded = true;
+}
+
 function renderMovies() {
   const tabMovies = document.getElementById('tab-movies');
+  const container = document.getElementById('timeline-movies');
   container.innerHTML = '';
 
   movies.forEach(movie => {
