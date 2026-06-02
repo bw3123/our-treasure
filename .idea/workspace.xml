@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d808491f-f0bd-4d84-91f6-8450e986c9f2" name="Changes" comment="movies and password" />
+    <list default="true" id="d808491f-f0bd-4d84-91f6-8450e986c9f2" name="Changes" comment="scrol tabs">
+      <change afterPath="$PROJECT_DIR$/pics/emu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/emu1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/emu3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/stupid1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/stupid2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/stupid3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780429951575</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="scrol tabs">
+      <option name="closed" value="true" />
+      <created>1780430213485</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1780430213485</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +298,7 @@
     <MESSAGE value="3" />
     <MESSAGE value="task page" />
     <MESSAGE value="movies and password" />
-    <option name="LAST_COMMIT_MESSAGE" value="movies and password" />
+    <MESSAGE value="scrol tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="scrol tabs" />
   </component>
 </project>
