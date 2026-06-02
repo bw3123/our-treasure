@@ -63,8 +63,26 @@
   .nav-logo svg { transition: transform 0.7s; }
   .nav-logo:hover svg { transform: rotate(180deg); }
   .nav-tabs {
-    display: flex; background: rgba(255,255,255,0.05); border-radius: 100px; padding: 4px; gap: 2px;
-  }
+  display: flex;
+  gap: 6px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 100px;
+  padding: 4px;
+
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  max-width: 70vw;
+}
+
+.nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-tab {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
   .nav-tab {
     padding: 8px 18px; border-radius: 100px; font-size: 0.85rem; font-weight: 600;
     cursor: pointer; transition: all 0.3s; color: var(--muted); border: none; background: none;
@@ -78,7 +96,25 @@
     background: var(--wed-accent); color: white;
     box-shadow: 0 0 20px rgba(217,70,239,0.4);
   }
+@media (max-width: 600px) {
+  .nav-inner {
+    gap: 12px;
+  }
 
+  .nav-logo {
+    font-size: 0.9rem;
+  }
+
+  .nav-tabs {
+    max-width: 65vw;
+    padding: 4px;
+  }
+
+  .nav-tab {
+    padding: 8px 12px;
+    font-size: 0.75rem;
+  }
+}
   /* PAGES */
   .page { display: none; animation: fadeIn 0.4s ease; }
   .page.active { display: block; }
@@ -3365,8 +3401,10 @@ renderPosts(POSTS.wednesday, 'timeline-wed', true);
   }
 }
 
-    function checkTasksPassword() {
+  function checkTasksPassword() {
   const pw = prompt("Enter password for Tasks:");
+
+  if (!pw) return; // handles Cancel + empty input
 
   if (pw === "batrnan") {
     sessionStorage.setItem("tasksUnlocked", "true");
