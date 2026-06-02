@@ -381,6 +381,10 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M6 14h.01M10 14h.01M14 14h.01"/></svg>
         Wednesday
       </button>
+      <button class="nav-tab" onclick="showPage('tasks')" id="tab-tasks">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M6 14h.01M10 14h.01M14 14h.01"/></svg>
+        Tasks
+      </button>
     </div>
   </div>
 </nav>
@@ -443,6 +447,23 @@
   </div>
 </div>
 
+<!-- TASK -->
+<div class="page" id="page-tasks">
+  <div class="hero">
+    <h1>Tasks</h1>
+    <p class="sub">Your personal quest log ⚔️</p>
+  </div>
+
+  <!-- ADD TASK -->
+  <div style="max-width:600px;margin:20px auto;display:flex;gap:10px;">
+    <input id="newTaskInput" placeholder="Add a quest..." style="flex:1;padding:10px;" />
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <!-- TASK LIST -->
+  <div class="timeline" id="timeline-tasks"></div>
+</div>
+
 <!-- MODAL -->
 <div class="modal-overlay" id="modal" onclick="closeModal(event)">
   <div class="modal" id="modal-box">
@@ -467,11 +488,176 @@
 <footer>
   built with ♥ just to see my lil one smile ;)
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
+
+
+    const SUPABASE_URL = "https://vexrmjmpencefrqjskqq.supabase.co";
+    const SUPABASE_KEY = "sb_publishable_DeXs1AZIIJF-NjkF4xB8Vg_2nslRCuG";
+
+    const supabaseClient = supabase.createClient(
+      SUPABASE_URL,
+      SUPABASE_KEY
+    );
+
+let tasksLoaded = false;
+
+
 // ====================================================
-// DATA — edit posts here!
+// DATA —
 // ====================================================
+
+// ====================================================
+// DATA —  tasks here!
+// ====================================================
+
+
+
+let tasks = [];
+
+async function loadTasks() {
+  const { data, error } = await supabaseClient
+    .from('tasks')
+    .select('*')
+    .order('created_at', { ascending: false });
+
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  tasks = data;
+  renderTasks();
+}
+
+function renderTasks() {
+  const container = document.getElementById('timeline-tasks');
+  container.innerHTML = '';
+
+  tasks.forEach(task => {
+    const row = document.createElement('div');
+    row.className = 'post-row visible';
+
+    row.innerHTML = `
+      <div class="post-card">
+        <div class="card-body">
+
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
+
+            <div style="display:flex;align-items:center;gap:10px;">
+              <input type="checkbox" ${task.completed ? "checked" : ""}
+                onchange="toggleTask(${task.id}, this.checked)" />
+
+              <div class="card-title" style="${task.completed ? 'text-decoration:line-through;opacity:0.5' : ''}">
+                ${task.task}
+              </div>
+            </div>
+
+            <div style="display:flex;gap:8px;">
+              <button onclick="editTask(${task.id})">✏️</button>
+              <button onclick="deleteTask(${task.id})">🗑️</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    `;
+
+    container.appendChild(row);
+  });
+}
+
+async function addTask() {
+  const input = document.getElementById('newTaskInput');
+  const value = input.value.trim();
+
+  if (!value) return;
+
+  const { data, error } = await supabaseClient
+    .from('tasks')
+    .insert([{ task: value }])
+    .select();
+
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  tasks.unshift(data[0]);
+  input.value = '';
+  renderTasks();
+}
+
+async function toggleTask(id, completed) {
+  const { error } = await supabaseClient
+    .from('tasks')
+    .update({ completed })
+    .eq('id', id);
+
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  const t = tasks.find(x => x.id === id);
+  if (t) t.completed = completed;
+
+  renderTasks();
+}
+
+
+
+async function deleteTask(id) {
+  const { error } = await supabaseClient
+    .from('tasks')
+    .delete()
+    .eq('id', id);
+
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  tasks = tasks.filter(t => t.id !== id);
+  renderTasks();
+}
+
+
+async function editTask(id) {
+  const task = tasks.find(t => t.id === id);
+  const newText = prompt("Edit task:", task.task);
+
+  if (!newText) return;
+
+  const { error } = await supabaseClient
+    .from('tasks')
+    .update({ task: newText })
+    .eq('id', id);
+
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  task.task = newText;
+  renderTasks();
+}
+
+
+
+async function ensureTasksLoaded() {
+  if (tasksLoaded) return;
+  await loadTasks();
+  tasksLoaded = true;
+}
+
+// ====================================================
+// DATA —  posts here!
+// ====================================================
+
+
+
 const POSTS = {
   main: [
     {
@@ -2723,18 +2909,30 @@ Nature is not always as innocent as it seems.`
 function showPage(name) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.getElementById('page-' + name).classList.add('active');
+
   const nav = document.getElementById('main-nav');
   const tabMain = document.getElementById('tab-main');
   const tabWed = document.getElementById('tab-wed');
+  const tabTasks = document.getElementById('tab-tasks');
+
+  tabMain.className = 'nav-tab';
+  tabWed.className = 'nav-tab';
+  tabTasks.className = 'nav-tab';
+
   if (name === 'wednesday') {
     nav.classList.add('wed-mode');
-    tabMain.className = 'nav-tab';
     tabWed.className = 'nav-tab active-wed';
-  } else {
+  }
+  else if (name === 'main') {
     nav.classList.remove('wed-mode');
     tabMain.className = 'nav-tab active-main';
-    tabWed.className = 'nav-tab';
   }
+  else if (name === 'tasks') {
+  nav.classList.remove('wed-mode');
+  tabTasks.className = 'nav-tab active-main';
+  ensureTasksLoaded();
+}
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -2992,5 +3190,8 @@ updateCountdown();
 renderPosts(POSTS.main, 'timeline-main', false);
 renderPosts(POSTS.wednesday, 'timeline-wed', true);
 </script>
+
+
+
 </body>
 </html>
