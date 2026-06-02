@@ -717,7 +717,7 @@ async function addMovie() {
 
   if (!value) return;
 
-  const { data, error } = await supabase
+  const { data, error } = await supabaseClient
     .from('movies')
     .insert([{ title: value }])
     .select();
@@ -730,7 +730,7 @@ async function addMovie() {
 }
 
 async function toggleMovie(id, watched) {
-  const { error } = await supabase
+  const { error } = await supabaseClient
     .from('movies')
     .update({ watched })
     .eq('id', id);
@@ -745,7 +745,7 @@ async function toggleMovie(id, watched) {
 
 
 async function deleteMovie(id) {
-  await supabase.from('movies').delete().eq('id', id);
+  await supabaseClient.from('movies').delete().eq('id', id);
   movies = movies.filter(m => m.id !== id);
   renderMovies();
 }
@@ -755,7 +755,7 @@ async function editMovie(id) {
   const newTitle = prompt("Edit movie:", movie.title);
   if (!newTitle) return;
 
-  await supabase
+  await supabaseClient
     .from('movies')
     .update({ title: newTitle })
     .eq('id', id);
