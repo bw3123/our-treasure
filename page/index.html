@@ -475,20 +475,14 @@
 
 .onepiece-frame{
   position:relative;
-  width:min(90vw,500px);
-  aspect-ratio:4/3;
+  width:min(90vw,460px);
   border-radius:24px;
   overflow:hidden;
-  border:1px solid rgba(255,255,255,.12);
 
-  background:rgba(255,255,255,.03);
-  backdrop-filter:blur(12px);
+  border:2px solid rgba(129,140,248,.25);
 
   box-shadow:
-    0 0 40px rgba(99,102,241,.25),
-    0 0 120px rgba(167,139,250,.12);
-
-  transition:.4s;
+    0 0 50px rgba(99,102,241,.15);
 }
 
 .onepiece-frame:hover{
@@ -496,21 +490,24 @@
 }
 
 .onepiece-frame::before{
-  content:"SPECIMEN #001";
+  
   position:absolute;
-  top:14px;
-  left:14px;
-  z-index:10;
+  top:12px;
+  right:12px;
 
-  font-size:11px;
-  letter-spacing:.2em;
-  color:#a5b4fc;
+  z-index:20;
 
-  padding:6px 10px;
+  padding:6px 12px;
+
+  background:rgba(3,7,18,.85);
+
+  border:1px solid rgba(129,140,248,.3);
+
   border-radius:999px;
 
-  background:rgba(3,7,18,.75);
-  backdrop-filter:blur(8px);
+  font-size:10px;
+  letter-spacing:.2em;
+  color:#a5b4fc;
 }
 
 .onepiece-slide{
@@ -530,11 +527,7 @@
   object-fit:cover;
 }
 
-.onepiece-link{
-  position:absolute;
-  inset:0;
-  z-index:5;
-}
+
 
 .onepiece-caption{
   text-align:center;
@@ -618,10 +611,7 @@
 
     <div class="onepiece-frame">
 
-      <a id="onepieceLink"
-         class="onepiece-link"
-         href="https://1.com"
-         target="_blank"></a>
+      
 
       <div class="onepiece-slide active"
           >
@@ -3759,9 +3749,6 @@ renderPosts(POSTS.wednesday, 'timeline-wed', true);
 const onePieceSlides =
   document.querySelectorAll(".onepiece-slide");
 
-const onePieceLink =
-  document.getElementById("onepieceLink");
-
 let onePieceIndex = 0;
 
 setInterval(() => {
@@ -3774,10 +3761,6 @@ setInterval(() => {
 
   onePieceSlides[onePieceIndex]
     .classList.add("active");
-
-  onePieceLink.href =
-    onePieceSlides[onePieceIndex]
-      .dataset.link;
 
 }, 5000);
 
