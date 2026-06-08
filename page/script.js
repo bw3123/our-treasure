@@ -3014,41 +3014,85 @@ renderPosts(POSTS.wednesday, 'timeline-wed', true);
 updateToggleUI('task', 'all');
 updateToggleUI('movie', 'all');
 
+//
+//function checkMoviesPassword() {
+//  const pw = prompt("Enter password for Movies:");
+//
+//  if (!pw) return false;
+//
+//  if (pw === "batrnan") {
+//    const expiry = Date.now() + 24 * 60 * 60 * 1000;
+//    localStorage.setItem("moviesUnlockedUntil", expiry);
+//
+//    ensureMoviesLoaded();
+//    showPage('movies'); // ✅ ADD THIS
+//  } else {
+//    alert("Wrong password ❌");
+//    return false;
+//  }
+//}
+let pendingUnlock = null;
 
-function checkMoviesPassword() {
-  const pw = prompt("Enter password for Movies:");
+function openPasswordModal(type) {
+  pendingUnlock = type;
 
-  if (!pw) return false;
+  document.getElementById("password-title").textContent =
+    type === "movies" ? "Unlock Movies" : "Unlock Tasks";
+
+  document.getElementById("password-input").value = "";
+  document.getElementById("password-modal").classList.remove("hidden");
+}
+
+function closePasswordModal() {
+  document.getElementById("password-modal").classList.add("hidden");
+  pendingUnlock = null;
+}
+
+function submitPassword() {
+  const pw = document.getElementById("password-input").value;
+
+  if (!pw) return;
 
   if (pw === "batrnan") {
     const expiry = Date.now() + 24 * 60 * 60 * 1000;
-    localStorage.setItem("moviesUnlockedUntil", expiry);
 
-    ensureMoviesLoaded();
-    showPage('movies'); // ✅ ADD THIS
+    if (pendingUnlock === "movies") {
+      localStorage.setItem("moviesUnlockedUntil", expiry);
+      ensureMoviesLoaded();
+      showPage("movies");
+    }
+
+    if (pendingUnlock === "tasks") {
+      localStorage.setItem("tasksUnlockedUntil", expiry);
+      ensureTasksLoaded();
+      showPage("tasks");
+    }
+
+    closePasswordModal();
   } else {
     alert("Wrong password ❌");
-    return false;
   }
 }
 
-function checkTasksPassword() {
-  const pw = prompt("Enter password for Tasks:");
 
-  if (!pw) return false;
-
-  if (pw === "batrnan") {
-    const expiry = Date.now() + 24 * 60 * 60 * 1000;
-    localStorage.setItem("tasksUnlockedUntil", expiry);
-
-    ensureTasksLoaded();
-    showPage('tasks'); // ✅ ADD THIS
-  } else {
-    alert("Wrong password ❌");
-    return false;
-  }
-}
-
+//
+//function checkTasksPassword() {
+//  const pw = prompt("Enter password for Tasks:");
+//
+//  if (!pw) return false;
+//
+//  if (pw === "batrnan") {
+//    const expiry = Date.now() + 24 * 60 * 60 * 1000;
+//    localStorage.setItem("tasksUnlockedUntil", expiry);
+//
+//    ensureTasksLoaded();
+//    showPage('tasks'); // ✅ ADD THIS
+//  } else {
+//    alert("Wrong password ❌");
+//    return false;
+//  }
+//}
+//
 
 
 	/* ONE PIECE ROTATOR */
