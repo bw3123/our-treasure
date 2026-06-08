@@ -150,9 +150,16 @@
   </div>
 
   <!-- ADD TASK -->
-  <div style="max-width:600px;margin:20px auto;display:flex;gap:10px;">
-    <input id="newTaskInput" placeholder="Add a quest..." style="flex:1;padding:10px;" />
+  <div class="add-bar">
+    <input id="newTaskInput" placeholder="Add a quest..." />
     <button onclick="addTask()">Add</button>
+  </div>
+
+<!--toggle button-->
+  <div class="filter-toggle" id="task-toggle">
+    <button onclick="setTaskFilter('all')">All</button>
+    <button onclick="setTaskFilter('pending')">Pending</button>
+    <button onclick="setTaskFilter('done')">Done</button>
   </div>
 
   <!-- TASK LIST -->
@@ -166,11 +173,65 @@
     <p class="sub">Your personal watchlist 🎬</p>
   </div>
 
+
+
+
+
   <!-- ADD MOVIE -->
-  <div style="max-width:600px;margin:20px auto;display:flex;gap:10px;">
-    <input id="newMovieInput" placeholder="Add a movie..." style="flex:1;padding:10px;" />
+  <div class="add-bar">
+    <input id="newMovieInput" placeholder="Add a movie..." />
     <button onclick="addMovie()">Add</button>
   </div>
+
+
+  <div style="max-width:600px;margin:10px auto;display:flex;justify-content:center;">
+    <button onclick="chooseRandomMovie()"
+            style="
+      padding:10px 18px;
+      border:none;
+      border-radius:12px;
+      cursor:pointer;
+      font-weight:600;
+      font-size:14px;
+      color:white;
+      background:linear-gradient(135deg,#6a5af9,#9b59b6);
+      box-shadow:0 6px 18px rgba(0,0,0,0.25);
+      transition:all 0.2s ease;
+    "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+            onmousedown="this.style.transform='scale(0.97)'"
+            onmouseup="this.style.transform='scale(1.05)'"
+    >
+      🎲 Choose a Movie
+    </button>
+  </div>
+
+  <div id="movie-suggestion"
+       style="
+       max-width:600px;
+       margin:12px auto;
+       padding:12px 14px;
+       text-align:center;
+       font-size:15px;
+       font-weight:600;
+       border-radius:12px;
+       background:rgba(255,255,255,0.08);
+       backdrop-filter:blur(6px);
+       border:1px solid rgba(255,255,255,0.15);
+       transition:all 0.3s ease;
+     ">
+    🎬 Ready to pick a movie ???
+  </div>
+
+
+<!--  toggle button-->
+  <div class="filter-toggle" id="movie-toggle">
+    <button onclick="setMovieFilter('all')">All</button>
+    <button onclick="setMovieFilter('pending')">Unwatched</button>
+    <button onclick="setMovieFilter('done')">Watched</button>
+  </div>
+
 
   <!-- MOVIE LIST -->
   <div class="timeline" id="timeline-movies"></div>

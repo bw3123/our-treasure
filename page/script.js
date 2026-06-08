@@ -1,4 +1,7 @@
 
+let taskFilter = 'all';
+let movieFilter = 'all';
+let authInProgress = false;
 
     const SUPABASE_URL = "https://vexrmjmpencefrqjskqq.supabase.co";
     const SUPABASE_KEY = "sb_publishable_DeXs1AZIIJF-NjkF4xB8Vg_2nslRCuG";
@@ -60,9 +63,18 @@ function renderMovies() {
   const container = document.getElementById('timeline-movies');
   container.innerHTML = '';
 
-  movies.forEach(movie => {
+  let filteredMovies = movies;
+
+  if (movieFilter === 'pending') {
+    filteredMovies = movies.filter(m => !m.watched);
+  }
+  if (movieFilter === 'done') {
+    filteredMovies = movies.filter(m => m.watched);
+  }
+
+  filteredMovies.forEach(movie => {
     const row = document.createElement('div');
-    row.className = 'post-row visible';
+    row.className = 'post-row visible movie-row';
 
     row.innerHTML = `
       <div class="post-card">
@@ -176,9 +188,20 @@ function renderTasks() {
   const container = document.getElementById('timeline-tasks');
   container.innerHTML = '';
 
-  tasks.forEach(task => {
+let pending = tasks.filter(t => !t.completed);
+let done = tasks.filter(t => t.completed);
+
+if (taskFilter === 'pending') {
+  done = [];
+}
+if (taskFilter === 'done') {
+  pending = [];
+}
+
+  // helper: reuse your exact existing row HTML
+  const makeRow = (task) => {
     const row = document.createElement('div');
-    row.className = 'post-row visible';
+    row.className = 'post-row visible task-row';
 
     row.innerHTML = `
       <div class="post-card">
@@ -206,8 +229,29 @@ function renderTasks() {
       </div>
     `;
 
-    container.appendChild(row);
-  });
+    return row;
+  };
+
+  // SECTION 1: Pending
+  const pendingTitle = document.createElement('div');
+  pendingTitle.style = "max-width:1000px;margin:0 auto 10px;font-weight:700;color:#94a3b8;";
+  pendingTitle.textContent = "⏳ Pending";
+
+  container.appendChild(pendingTitle);
+  pending.forEach(t => container.appendChild(makeRow(t)));
+
+  // spacing
+  const spacer = document.createElement('div');
+  spacer.style.height = "30px";
+  container.appendChild(spacer);
+
+  // SECTION 2: Done
+  const doneTitle = document.createElement('div');
+  doneTitle.style = "max-width:1000px;margin:0 auto 10px;font-weight:700;color:#94a3b8;";
+  doneTitle.textContent = "✅ Completed";
+
+  container.appendChild(doneTitle);
+  done.forEach(t => container.appendChild(makeRow(t)));
 }
 
 async function addTask() {
@@ -2678,31 +2722,36 @@ function showPage(name) {
     nav.classList.remove('wed-mode');
     tabMain.className = 'nav-tab active-main';
   }
-  else if (name === 'tasks') {
+    else if (name === 'tasks') {
 
+      if (authInProgress) return;
 
-    if (sessionStorage.getItem("tasksUnlocked") !== "true") {
-      checkTasksPassword();
-      return;
+      nav.classList.remove('wed-mode');
+      tabTasks.className = 'nav-tab active-main';
+
+      if (!isUnlocked("tasksUnlockedUntil")) {
+        const ok = checkTasksPassword();
+        if (!ok) return;
+      }
+
+      ensureTasksLoaded();
     }
 
 
+    else if (name === 'movies') {
 
-    nav.classList.remove('wed-mode');
-    tabTasks.className = 'nav-tab active-main';
-    ensureTasksLoaded();
-  }
-  else if (name === 'movies') {
+      if (authInProgress) return;
 
-    if (sessionStorage.getItem("moviesUnlocked") !== "true") {
-      checkMoviesPassword();
-      return;
+      nav.classList.remove('wed-mode');
+      tabMovies.className = 'nav-tab active-main';
+
+      if (!isUnlocked("moviesUnlockedUntil")) {
+        const ok = checkMoviesPassword();
+        if (!ok) return;
+      }
+
+      setTimeout(() => ensureMoviesLoaded(), 0);
     }
-
-    nav.classList.remove('wed-mode');
-    tabMovies.className = 'nav-tab active-main';
-    ensureMoviesLoaded();
-  }
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -2962,32 +3011,41 @@ renderPosts(POSTS.main, 'timeline-main', false);
 renderPosts(POSTS.wednesday, 'timeline-wed', true);
 
 
+updateToggleUI('task', 'all');
+updateToggleUI('movie', 'all');
 
 
-
-  function checkMoviesPassword() {
+function checkMoviesPassword() {
   const pw = prompt("Enter password for Movies:");
 
+  if (!pw) return false;
+
   if (pw === "batrnan") {
-    sessionStorage.setItem("moviesUnlocked", "true");
-    showPage('movies');
+    const expiry = Date.now() + 24 * 60 * 60 * 1000;
+    localStorage.setItem("moviesUnlockedUntil", expiry);
+
     ensureMoviesLoaded();
+    showPage('movies'); // ✅ ADD THIS
   } else {
     alert("Wrong password ❌");
+    return false;
   }
 }
 
-  function checkTasksPassword() {
+function checkTasksPassword() {
   const pw = prompt("Enter password for Tasks:");
 
-  if (!pw) return; // handles Cancel + empty input
+  if (!pw) return false;
 
   if (pw === "batrnan") {
-    sessionStorage.setItem("tasksUnlocked", "true");
-    showPage('tasks');
+    const expiry = Date.now() + 24 * 60 * 60 * 1000;
+    localStorage.setItem("tasksUnlockedUntil", expiry);
+
     ensureTasksLoaded();
+    showPage('tasks'); // ✅ ADD THIS
   } else {
     alert("Wrong password ❌");
+    return false;
   }
 }
 
@@ -3012,3 +3070,68 @@ setInterval(() => {
     .classList.add("active");
 
 }, 4000);
+
+
+function setTaskFilter(type) {
+  taskFilter = type;
+  updateToggleUI('task', type);
+  renderTasks();
+}
+
+function setMovieFilter(type) {
+  movieFilter = type;
+  updateToggleUI('movie', type);
+  renderMovies();
+}
+
+function updateToggleUI(type, value) {
+  const map = {
+    task: 'task-toggle',
+    movie: 'movie-toggle'
+  };
+
+  const container = document.getElementById(map[type]);
+  if (!container) return;
+
+  container.querySelectorAll('button').forEach(btn => {
+    btn.classList.remove('active');
+  });
+
+  if (value === 'all') container.children[0].classList.add('active');
+  if (value === 'pending') container.children[1].classList.add('active');
+  if (value === 'done') container.children[2].classList.add('active');
+}
+
+
+function chooseRandomMovie() {
+  const unwatched = movies.filter(m => !m.watched);
+
+  if (unwatched.length === 0) {
+    const el = document.getElementById("movie-suggestion");
+    el.textContent = "🎉 No unwatched movies!";
+    return;
+  }
+
+  const random = unwatched[Math.floor(Math.random() * unwatched.length)];
+
+  const el = document.getElementById("movie-suggestion");
+
+  el.style.transform = "scale(0.95)";
+  el.style.opacity = "0.5";
+
+  setTimeout(() => {
+    el.textContent = "🎬 Watch next: " + random.title;
+
+    el.style.transform = "scale(1)";
+    el.style.opacity = "1";
+  }, 120);
+}
+
+
+function isUnlocked(key) {
+  const value = localStorage.getItem(key);
+  if (!value) return false;
+
+  const expiry = Number(value);
+  return Date.now() < expiry;
+}
