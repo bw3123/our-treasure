@@ -2310,7 +2310,88 @@ https://www.scientificamerican.com/.../can-science.../`
 ],
   wednesday: [
 
+ {
+      title: "",
+      date: "2026-06-10",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/tomo.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/tomo1.jpg",
+		  "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/tomo2.png"
+		   ],
+      content: `⚠️ Spoiler Warning ⚠️
 
+There is a good chance you won't understand what I'm about to say.
+
+You may think it's confusing. You may feel like nothing is clear.
+
+That's okay.
+
+When the time comes and you experience the story yourself, the pieces will slowly fall into place, and you'll finally see the bigger picture.
+
+
+
+
+
+
+What is right? What is wrong?
+
+Sounds like an easy question, haa? but naah!!!
+
+One day, Yuichi thought he had four loyal friends by his side. The next, he discovered that one of them had betrayed the group and dragged everyone into a debt bigger than any of them could bear.
+
+Why?
+
+Who did it?
+
+Was it greed? Jealousy? Revenge? Or something else entirely?
+
+The problem is that there is never a simple answer.
+
+Everyone has a motive. Everyone has secrets. Everyone lies. Yet at the same time, everyone seems to genuinely value their friendship.
+
+And that's where the nightmare begins.
+
+The challenges don't stop after the first game. In fact, that is only the beginning. The "Tomodachi Game" is much bigger than anyone realizes at first. Every game reveals another secret, another betrayal, another hidden truth. Every answer creates even more questions.
+
+Just when you think you've figured out who the villain is, the story turns everything upside down.
+
+Again.
+
+And again.
+
+And again.
+
+You start questioning every character. Every action. Every friendship. Every promise.
+
+Who was the good guy from the beginning?
+
+Who was truly innocent?
+
+Who was the real friend?
+
+Who was only pretending?
+
+No matter how much information you gather, the story keeps showing you a bigger picture hidden behind the one you thought was complete.
+
+There are twists everywhere. Events that seemed meaningless suddenly become important. Conversations you forgot about return with a completely different meaning. Things were happening in the background the entire time, and you never even noticed.
+
+But perhaps the biggest question isn't who betrayed whom.
+
+It's this:
+
+When did all of this really start?
+
+The answer is far more shocking than you might expect.
+
+Who initiated it?
+
+Who set everything into motion?
+
+Who was pulling the strings from the shadows?
+
+What we are sure about is that all of its started with:
+What is right? What is wrong?`
+    },
 
 {
       title: "",
