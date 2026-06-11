@@ -2312,6 +2312,253 @@ https://www.scientificamerican.com/.../can-science.../`
 
  {
       title: "",
+      date: "2026-06-11",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/color1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/color2.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/color3.jpg"
+		   ],
+      content: `Imagine you are living in a world that feels completely shared… but no one can ever truly prove that you are experiencing the same reality as anyone else.
+
+Not opinions.
+Not perspectives.
+Something deeper than that.
+Something almost unsettling.
+
+Your actual experience of reality itself.
+
+Take something as simple as the color “red.”
+
+We treat it as a fact.
+This is red. This is blue. This is green.
+We teach children these labels. We test them in school. We correct them when they’re wrong. As if the matter is closed.
+
+But here’s the quiet question that starts to break everything apart:
+
+What if the “red” you see is not the same “red” I see?
+
+Not the name.
+Not the wavelength.
+But the internal experience—what it actually feels like inside your mind.
+
+Maybe what you experience as “red”
+feels to me exactly like what you would call “blue”…
+but I learned from childhood that this feeling is called “red,”
+so I use the correct word…
+without ever knowing that my inner world might be completely different from yours.
+
+And that’s the strange foundation of our reality:
+
+We don’t actually share experiences.
+We share agreements about experiences.
+
+Even science, for all its precision, hits a strange wall here.
+It can tell you:
+“This wavelength corresponds to this color.”
+But it cannot tell you:
+“This is what that color feels like to a conscious mind.”
+
+Now imagine this scene:
+
+Two people look at the same flower.
+Both confidently say: “Red.”
+
+Same word. Same certainty.
+But inside their minds…
+the experience could be completely different.
+
+And neither of them would ever know.
+
+That’s the unsettling part—not difference itself,
+but the fact that the difference is undetectable.
+
+You cannot step into another person’s consciousness.
+You cannot compare inner experiences like objects.
+There is no “reference point” for what red feels like beyond your own mind.
+
+So a question slowly appears in the background:
+
+If every person carries a slightly different version of reality inside their mind…
+how many realities are existing in this very moment, overlapping without ever touching?
+
+Maybe the sky isn’t “blue” in any single universal way.
+Maybe it is billions of private blues—
+one for every conscious observer.
+
+And yet, life continues normally.
+We agree. We disagree. We build societies. We fall in love. We argue about truth…
+all while quietly assuming we are seeing the same world.
+
+Maybe the most interesting part isn’t the answer.
+
+It’s the possibility that the world has never been fully shared—
+only collectively named.`
+    },
+
+	  {
+      title: "",
+      date: "2026-06-11",
+      photos: [
+         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/light2.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/light1.jpg"
+		   ],
+      content: `You’re not actually seeing anything in real time.
+
+Not even the person standing right in front of you.
+
+What you call “now” is already slightly in the past.
+
+Just a fraction of a second… but still the past.
+
+Think about it.
+
+Light leaves their body…
+travels through space…
+enters your eyes…
+gets processed by your brain…
+
+And only then does your mind confidently tell you:
+
+“This is happening now.”
+
+But it isn’t.
+
+It already happened.
+
+You’re just receiving it a little late.
+
+At a distance of 3 meters, the delay is tiny—almost meaningless.
+
+But stretch the distance…
+
+Look at the Moon: you see it as it was about 1.5 seconds ago.
+The Sun: 8 minutes in the past.
+The stars: some no longer even exist in reality… only their light is still on its way to you.
+
+It’s like watching a live show
+where the performers left the stage long before you saw them.
+
+And here’s the strange part:
+
+It’s not just the universe that is delayed.
+
+It’s your perception of it.
+
+Your brain hides the delay completely.
+
+It doesn’t say: “Warning: this is outdated information.”
+
+Instead, it simply builds a smooth illusion:
+
+“This is reality. Right now.”
+
+As if everything you see is live…
+when in fact, it’s always slightly recorded.
+
+Now pause for a second.
+
+If everything you see is already a version of the past…
+then where does the real “now” even exist?
+
+Somewhere unreachable.
+A point so immediate that even light cannot report it in time.
+
+And here’s where it gets a little uncomfortable:
+
+If your eyes are always living a fraction behind reality…
+how often does your mind do the same?
+
+How many times have you judged a moment that was already gone?
+How many people have you understood… too late?
+How many decisions were made based on an outdated version of the truth?
+
+Maybe the issue is not that light is slow.
+
+Maybe the issue is that we are, too.
+
+Slow to understand.
+Slow to update.
+Slow to see things as they really are.`
+    },
+
+	  {
+      title: "",
+      date: "2026-06-11",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/memo1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/memo2.jpg"
+		   ],
+      content: `You might have memories that never happened.
+
+Not as a metaphor. As a scientific possibility.
+
+Research in cognitive psychology suggests that memory is not a recording device… it’s a reconstruction system.
+
+So imagine this:
+
+Your memory is not a video archive stored somewhere in your brain.
+It’s a workshop.
+
+Every time you try to remember something, you are not “playing back” a file.
+You are rebuilding it from scratch.
+
+You take a piece from here: your current emotions.
+Another piece from there: something someone told you later.
+Fill in the gaps: with assumptions about how it “must have happened.”
+
+And suddenly… it feels real. Completely real.
+
+Here’s the disturbing part:
+
+Your brain does not label memories as:
+❌ “uncertain”
+❌ “reconstructed”
+❌ “possibly wrong”
+
+It gives you only one signal:
+
+certainty.
+
+That’s why two people can experience the same event…
+and later describe it in completely different ways…
+both fully convinced they are right.
+
+Even more unsettling:
+
+You might “remember” entire childhood events…
+that are actually built from old photos, repeated family stories, or imagination that got reshaped over time until it felt like lived experience.
+
+Memory doesn’t lie…
+but it doesn’t guarantee truth either.
+
+And here’s the real question:
+
+If some of your memories are flexible like this…
+
+how many of your current beliefs are built on a past that may not be as accurate as you think?
+
+How many times have you said:
+
+“I am like this because I went through that.”
+
+…when “that” might not be exactly how you remember it?
+
+The most dangerous part is not that memory is unreliable.
+
+It’s that it feels absolutely confident while being wrong.
+
+So the question isn’t:
+
+Can you have false memories?
+
+The real question is:
+
+How many versions of your past are you living with… without ever knowing they never actually happened?`
+    },
+
+	  
+ {
+      title: "",
       date: "2026-06-10",
       photos: [
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/tomo.jpg",
