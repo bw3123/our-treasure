@@ -3057,10 +3057,7 @@ function showPage(name) {
       nav.classList.remove('wed-mode');
       tabTasks.className = 'nav-tab active-main';
 
-      if (!isUnlocked("tasksUnlockedUntil")) {
-        const ok = checkTasksPassword();
-        if (!ok) return;
-      }
+
 
       ensureTasksLoaded();
     }
@@ -3073,10 +3070,7 @@ function showPage(name) {
       nav.classList.remove('wed-mode');
       tabMovies.className = 'nav-tab active-main';
 
-      if (!isUnlocked("moviesUnlockedUntil")) {
-        const ok = checkMoviesPassword();
-        if (!ok) return;
-      }
+
 
       setTimeout(() => ensureMoviesLoaded(), 0);
     }
@@ -3365,13 +3359,15 @@ function openPasswordModal(type) {
   pendingUnlock = type;
 
   document.getElementById("password-title").textContent =
-    type === "movies" ? "Unlock Movies" : "Unlock Tasks";
+    "Enter Password";
 
   document.getElementById("password-input").value = "";
   document.getElementById("password-modal").classList.remove("hidden");
 }
 
 function closePasswordModal() {
+  if (!isUnlocked("siteUnlockedUntil")) return;
+
   document.getElementById("password-modal").classList.add("hidden");
   pendingUnlock = null;
 }
@@ -3384,19 +3380,9 @@ function submitPassword() {
   if (pw === "batrnan") {
     const expiry = Date.now() + 24 * 60 * 60 * 1000;
 
-    if (pendingUnlock === "movies") {
-      localStorage.setItem("moviesUnlockedUntil", expiry);
-      ensureMoviesLoaded();
-      showPage("movies");
-    }
+      localStorage.setItem("siteUnlockedUntil", expiry);
 
-    if (pendingUnlock === "tasks") {
-      localStorage.setItem("tasksUnlockedUntil", expiry);
-      ensureTasksLoaded();
-      showPage("tasks");
-    }
-
-    closePasswordModal();
+      closePasswordModal();
   } else {
     alert("Wrong password ❌");
   }
@@ -3507,3 +3493,8 @@ function isUnlocked(key) {
   const expiry = Number(value);
   return Date.now() < expiry;
 }
+window.addEventListener("load", () => {
+  if (!isUnlocked("siteUnlockedUntil")) {
+    openPasswordModal("site");
+  }
+});
