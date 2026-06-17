@@ -2312,6 +2312,50 @@ https://www.scientificamerican.com/.../can-science.../`
 
  {
       title: "",
+      date: "2026-06-17",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/steal1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/steal2.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/steal3.jpg"
+		   ],
+      content: `The animal that stole the power of plants
+
+Imagine if you could eat something… and then steal its abilities for yourself.
+
+Eat a bird and gain the power of flight. Eat a fish and breathe underwater. Eat a cheetah and run at its speed.
+
+It sounds like science fiction, right?
+
+But nature actually beat fiction to it by millions of years.
+
+Deep in coastal waters lives a tiny sea slug called Elysia chlorotica. At first glance, it looks more like a floating green leaf than an animal. You might even mistake it for a piece of seaweed drifting with the tide—but the reality is far more unusual.
+
+This creature has one of the strangest survival strategies in the animal kingdom.
+
+When it feeds on certain algae, it doesn’t fully digest them like most animals would. Instead, it carefully retains tiny parts of the algae’s cells called chloroplasts—the structures responsible for photosynthesis in plants, which convert sunlight into energy.
+
+And this is where things get fascinating.
+
+Rather than destroying them, the slug incorporates these chloroplasts into its own body, keeping them alive and functional as if they were still inside a plant.
+
+In simple terms…
+
+This animal “steals” the ability of plants to harness sunlight.
+
+After feeding, it can rely on these borrowed chloroplasts to produce energy from sunlight, almost like it has turned into a hybrid between an animal and a plant.
+
+This process is known as kleptoplasty, literally meaning “stolen plastids.”
+
+And while the word “theft” is used metaphorically, it’s not far from the truth: a living creature is taking a working biological system from another organism and making it function inside its own body.
+
+Scientists continue to study this remarkable sea slug, and every discovery adds another layer to how complex and inventive life on Earth truly is.
+
+Elysia chlorotica exists in a strange space between plant and animal, challenging the clear categories we usually rely on to understand living things.`
+    },
+
+	  
+ {
+      title: "",
       date: "2026-06-11",
       photos: [
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/color1.jpg",
