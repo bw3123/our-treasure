@@ -2312,6 +2312,42 @@ https://www.scientificamerican.com/.../can-science.../`
 
  {
       title: "",
+      date: "2026-06-24",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/tickle-brain1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/tickle-brain.jpg"
+		   ],
+      content: `Have you ever tried to tickle yourself?
+
+No matter how hard you try, it never works the same way as when someone else does it. You know exactly where you're going to touch, when you're going to touch, and what it will feel like. The result? Little to no ticklish reaction.
+
+This isn't because you're "immune" to your own touch. It's because your brain is incredibly good at predicting the future.
+
+Before your fingers even make contact with your skin, your brain has already created a prediction of the sensation you're about to feel. It knows the timing, the location, the pressure, and the expected outcome. Because the sensation is expected, the brain reduces its response to it.
+
+Scientists believe that tickling depends heavily on unpredictability. When another person tickles you, your brain can't perfectly predict the exact movement, timing, or intensity of the touch. That uncertainty creates a stronger sensory response, often leading to laughter and the familiar feeling of being ticklish.
+
+What's fascinating is that this ability isn't just about tickling. Your brain is constantly filtering out predictable information all day long.
+
+You don't notice the feeling of your clothes on your skin after a few minutes.
+You rarely notice the sound of your own breathing.
+You can even become unaware of a persistent smell in a room.
+
+Your brain is continuously deciding what deserves attention and what can be ignored.
+
+In a way, the fact that you can't tickle yourself reveals something profound about human perception: we don't experience the world exactly as it is. We experience a version of reality that has already been edited, filtered, and predicted by our brains.
+
+Every second, your brain is making millions of predictions about what will happen next—and most of the time, it's right.
+
+So the next time someone makes you laugh by tickling you, remember:
+
+The real reason isn't their fingers.
+
+It's that, for a brief moment, they managed to surprise one of the most sophisticated prediction machines in the known universe: your brain.`
+    },
+
+	   {
+      title: "",
       date: "2026-06-17",
       photos: [
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/steal1.jpg",
@@ -2352,8 +2388,6 @@ Scientists continue to study this remarkable sea slug, and every discovery adds 
 
 Elysia chlorotica exists in a strange space between plant and animal, challenging the clear categories we usually rely on to understand living things.`
     },
-
-	  
  {
       title: "",
       date: "2026-06-11",
