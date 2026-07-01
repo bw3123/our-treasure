@@ -2453,7 +2453,7 @@ Probably the worst sorting algorithm ever invented.
 
 Imagine you have this list:
 
-`[5, 2, 8, 1, 3]`
+"[5, 2, 8, 1, 3]"
 
 A normal sorting algorithm compares numbers, moves them into the right positions, and gets smarter with every step.
 
