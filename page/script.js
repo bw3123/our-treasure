@@ -2310,6 +2310,211 @@ https://www.scientificamerican.com/.../can-science.../`
 ],
   wednesday: [
 
+
+ {
+      title: "",
+      date: "2026-07-1",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/mp1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/mp2.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/mp3.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/mp4.png",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/mp5.png"
+		   ],
+      content: `I have a simple challenge for you.
+
+I'm thinking of a one-digit number.
+
+Don't worry... you'll eventually guess it.
+
+It might take one try...
+or five...
+or even ten.
+
+But sooner or later, you'll get it.
+
+Now let's make it a little harder.
+
+Instead of one digit, it's a three-digit number.
+
+Suddenly, it's not so easy.
+
+You'll guess wrong.
+Again.
+And again.
+
+But if I let you keep trying without ever stopping you...
+
+Eventually, you'd find the right number.
+
+Now let's raise the stakes.
+
+Not three digits.
+
+Not ten.
+
+Not a hundred.
+
+Imagine I'm thinking of a sequence that's **one million digits long**.
+
+Your first reaction would probably be:
+
+"That's impossible."
+
+But is it really impossible?
+
+Or does it simply require more time than a human could ever have?
+
+Now forget about numbers.
+
+Imagine a monkey sitting in front of a keyboard.
+
+It can't read.
+
+It can't write.
+
+It has no idea what words or letters even mean.
+
+All it does is press random keys.
+
+Over and over again.
+
+Now don't imagine just one monkey...
+
+Imagine **an infinite number of monkeys**.
+
+And don't imagine them typing for a day.
+
+Or a year.
+
+Or even billions of years.
+
+Imagine them typing forever.
+
+It sounds absurd.
+
+Yet mathematics makes a fascinating claim.
+
+If there are infinitely many monkeys, typing randomly for an infinite amount of time, then every possible sequence of letters will eventually appear.
+
+Somewhere.
+
+At some point.
+
+One monkey would accidentally type an entire Shakespeare play.
+
+Another would type every book ever written.
+
+Another would recreate every scientific paper, every poem, every song, every conversation in human history.
+
+One would even type this very post...
+
+Letter for letter.
+
+Not because the monkey is intelligent.
+
+Not because it understands language.
+
+But because given **infinite random attempts**, every possible arrangement of characters eventually occurs.
+
+This idea is known as **The Infinite Monkey Theorem**.
+
+It doesn't say that monkeys are secretly brilliant.
+
+It doesn't say this would happen quickly.
+
+In fact, the amount of time required is so unimaginably large that the age of our universe isn't even close.
+
+What the theorem really tells us is something much deeper:
+
+**Any event with a non-zero probability—even one so small that it feels impossible—becomes mathematically inevitable if given infinite opportunities.**
+
+Sometimes, what we call "impossible" isn't truly impossible.
+
+It's simply something we don't have enough time to witness.
+
+
+
+
+
+**Bonus Post 🎁**
+
+We talked about **The Infinite Monkey Theorem**...
+
+The idea that with infinite random attempts, even the most unlikely event eventually becomes inevitable.
+
+Now imagine someone took that idea...
+
+...and decided to turn it into a sorting algorithm.
+
+Meet **Bogosort**.
+
+Probably the worst sorting algorithm ever invented.
+
+Imagine you have this list:
+
+`[5, 2, 8, 1, 3]`
+
+A normal sorting algorithm compares numbers, moves them into the right positions, and gets smarter with every step.
+
+Bogosort?
+
+It does something completely different.
+
+It simply **shuffles the entire list randomly**.
+
+Then asks one question:
+
+"Is it sorted?"
+
+If the answer is **No**...
+
+It shuffles everything again.
+
+And again.
+
+And again.
+
+It doesn't matter if the list was **one swap away** from being sorted.
+
+It doesn't matter if the previous shuffle was **99% correct**.
+
+It throws everything away and starts over from scratch.
+
+Every.
+
+Single.
+
+Time.
+
+The funny part?
+
+It might sort the list on the **very first shuffle**.
+
+Or it might need thousands...
+
+Millions...
+
+Or an unimaginably large number of attempts.
+
+Every shuffle is treated as a completely new random guess, with no memory of the previous one.
+
+That's exactly why Bogosort is often used as a joke in computer science.
+
+Not because it doesn't work...
+
+But because it relies entirely on luck instead of learning.
+
+In theory, if you let it run forever, it will eventually sort any list.
+
+Just like the infinite monkeys would eventually type Shakespeare.
+
+In practice...
+
+You'll probably grow old waiting. 😄
+`
+    },
+
  {
       title: "",
       date: "2026-06-24",
@@ -2346,6 +2551,7 @@ The real reason isn't their fingers.
 It's that, for a brief moment, they managed to surprise one of the most sophisticated prediction machines in the known universe: your brain.`
     },
 
+	  
 	   {
       title: "",
       date: "2026-06-17",
