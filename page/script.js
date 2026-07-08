@@ -1,4 +1,4 @@
-
+ 
 let taskFilter = 'all';
 let movieFilter = 'all';
 let authInProgress = false;
