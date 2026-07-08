@@ -2313,6 +2313,81 @@ https://www.scientificamerican.com/.../can-science.../`
 
  {
       title: "",
+      date: "2026-07-8",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/lonly1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/lonly2.png"
+		   ],
+      content: `Here's a natural, engaging English version that keeps the reflective and creative tone rather than translating it word for word:
+
+**Is loneliness a feeling... or a place?**
+
+Most people think loneliness simply means being alone.
+
+But psychology tells us something different.
+
+Loneliness isn't measured by how many people are around you. It's measured by the gap between the connections you *wish* you had and the ones you actually experience. That's why someone can live alone for years and feel completely at peace, while another person can be surrounded by family, friends, and constant conversations, yet still feel deeply alone.
+
+What's even more fascinating is that your brain doesn't treat loneliness as "just an emotion."
+
+Neuroscience has shown that social pain activates some of the same brain regions involved in physical pain. In other words, your brain reacts to emotional disconnection as something that genuinely matters for survival. That's why loneliness can literally hurt—it isn't "all in your head." It's a biological signal.
+
+But here's the paradox...
+
+Not every moment of solitude is loneliness.
+
+And not every crowd can make you feel connected.
+
+You can spend hours by yourself, reading a book, walking through a quiet park, listening to music, or simply watching the rain—and feel more alive than ever.
+
+At the same time, you can laugh at a party, answer dozens of messages, post photos online, and still go home with the strange feeling that nobody truly saw you.
+
+Maybe loneliness isn't a place after all.
+
+Maybe it's the feeling of being unseen.
+
+Of speaking without being understood.
+
+Of smiling while silently hoping someone notices you're not okay.
+
+Human beings evolved to survive in groups. For thousands of years, belonging wasn't just comforting—it was essential. Being separated from the tribe often meant danger. Perhaps that's why our brains still treat social isolation as a warning signal, increasing stress hormones and making prolonged loneliness affect both our mental and physical health.
+
+But there's another kind of being alone.
+
+The kind you choose.
+
+The silence after turning off your phone.
+
+The peaceful moments spent with your own thoughts.
+
+The freedom of not needing to perform for anyone.
+
+That isn't loneliness.
+
+That's solitude.
+
+And maybe that's the biggest difference.
+
+**Solitude is a choice.**
+
+**Loneliness is a feeling.**
+
+So perhaps the real question isn't...
+
+*"How many people are around you?"*
+
+It's...
+
+**"How many people make you feel truly seen, understood, and accepted?"**
+
+I'd love to hear your thoughts.
+
+**Do you think loneliness is a feeling, a place... or something we've never quite found the right word for?**
+`
+    },
+
+	   {
+      title: "",
       date: "2026-07-1",
       photos: [
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/mp1.jpg",
