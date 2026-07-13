@@ -2311,6 +2311,51 @@ https://www.scientificamerican.com/.../can-science.../`
   wednesday: [
 
 
+	  {
+      title: "",
+      date: "2026-07-13",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/svsd2.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/svsd1.jpg"
+		   ],
+      content: `**The More You Know... The More You Lose?**
+
+People often say, *"Knowledge is power."* But what if knowledge isn't power at all? What if it's a burden? What if the ignorant aren't happy because they understand less, but because they simply don't see what the knowledgeable see?
+
+Imagine a child laughing and dancing in the rain, while a climate scientist stands beneath the same sky thinking about climate change, water scarcity, and the disasters that may lie ahead. The rain is the same. Yet knowledge allows one to play, while forcing the other to worry.
+
+Every piece of knowledge opens one door, but quietly closes another. The more you understand people, the less they surprise you. The more you understand politics, the less you trust it. The more you learn about economics, the more realistic your worries about the future become. And once you truly grasp how fragile life is, death begins to accompany every important decision.
+
+So does knowledge make life better... or does it steal away the innocence of living?
+
+It is often said that ignorance is bliss because the ignorant only see the bright side of the picture. The knowledgeable, however, see both the light and the shadows. They notice hypocrisy behind compliments, self-interest behind many relationships, and hidden risks behind beautiful opportunities. Not because they are pessimists—but because they have learned to see what was once invisible.
+
+But then comes the uncomfortable question:
+
+Is happiness built on ignorance really happiness?
+
+If you spent your entire life believing a beautiful lie, only to discover the truth at the very end... were you ever truly happy, or were you simply deceived?
+
+Perhaps the problem isn't knowledge itself, but the price it demands. Truth never negotiates. It takes away the comfort of illusion and replaces it with the weight of certainty. It offers clarity, but often at the cost of peace.
+
+That may be why the deepest thinkers are not always the happiest people. Philosophers, scientists, and great minds have often carried questions heavier than their ability to sleep, while others lived peacefully simply because they never asked those questions in the first place.
+
+And yet, one question remains even more disturbing:
+
+If you had to choose between a happy life built on illusion and a painful life built on truth... which would you choose?
+
+Would you rather be happy because you don't know, or restless because you see reality for what it is?
+
+Perhaps this is why humanity has never reached an agreement on the value of knowledge. Some see it as the path to freedom; others see it as the beginning of lost peace.
+
+**Now it's your turn, dear: Does knowledge make people happier—or more miserable?**
+
+Share your thoughts: Would you choose peace of mind... or peace of conscience? And is the truth really worth the price it demands?
+`
+    },
+
+	  
+
  {
       title: "",
       date: "2026-07-8",
@@ -2318,9 +2363,7 @@ https://www.scientificamerican.com/.../can-science.../`
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/lonly1.jpg",
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/lonly2.png"
 		   ],
-      content: `Here's a natural, engaging English version that keeps the reflective and creative tone rather than translating it word for word:
-
-**Is loneliness a feeling... or a place?**
+      content: `**Is loneliness a feeling... or a place?**
 
 Most people think loneliness simply means being alone.
 
