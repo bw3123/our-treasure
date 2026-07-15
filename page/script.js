@@ -2313,6 +2313,36 @@ https://www.scientificamerican.com/.../can-science.../`
 
 	  {
       title: "",
+      date: "2026-07-15",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/random3.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/random1.jpg",
+		  "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/random2.png",
+		  "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/random.mp4"
+		   ],
+      content: `At its core, a computer cannot generate truly random numbers. Everything it "randomly" produces is ultimately the result of a deterministic algorithm. If you know the algorithm and its starting state (the seed), you can predict every number it will generate.
+
+This is a fundamental problem for security. Without a source of true unpredictability, you cannot securely generate encryption keys, passwords, session tokens, or any other cryptographic secret.
+
+To solve this, modern processors include a built-in hardware random number generator (HRNG). Instead of relying on mathematics alone, the chip measures a physical phenomenon—typically thermal or electrical noise—which is inherently unpredictable. This raw physical uncertainty is called entropy, and it serves as the primary source of randomness for the system.
+
+Many security companies go a step further by adding independent entropy sources. The goal isn't to replace the hardware generator, but to supplement it with additional unpredictable input from the physical world.
+
+Cloudflare's famous Wall of Entropy is one example. A wall of more than 100 lava lamps is continuously filmed by a camera. The chaotic movement of the wax, combined with changing lighting conditions and other tiny physical variations, produces a stream of unpredictable data. That data is hashed and mixed into the random number generation process, helping seed the cryptographic systems that support Cloudflare's infrastructure.
+
+Notice the name: Wall of Entropy, not Wall of Randomness. In cryptography, the objective isn't randomness for its own sake—it's measurable unpredictability. The more entropy a system has, the harder it becomes for anyone to predict its next output.
+
+Cloudflare didn't invent this concept. They're applying a long-established cryptographic principle: take a physical process with no predictable pattern, convert it into digital data, and use it to establish cryptographic trust.
+
+They've even expanded the idea across different locations. In London, they use a wall of double pendulums. In Austin, suspended kinetic sculptures provide another chaotic physical source. In Lisbon, wave machines generate continuously changing motion. Each installation captures a different form of physical unpredictability.
+
+The same principle appears throughout the industry. PuTTY collects entropy from mouse movements, the Australian National University (ANU) generates random numbers from quantum fluctuations, and Intel's RDRAND instruction relies on thermal noise inside the processor itself.
+
+Although the implementations differ, they're all solving the same problem: how do you take an unpredictable physical phenomenon from the real world and transform it into a trustworthy source of entropy for cryptographic systems?`
+    },
+
+	    {
+      title: "",
       date: "2026-07-13",
       photos: [
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/svsd2.jpg",
@@ -2353,8 +2383,6 @@ Perhaps this is why humanity has never reached an agreement on the value of know
 Share your thoughts: Would you choose peace of mind... or peace of conscience? And is the truth really worth the price it demands?
 `
     },
-
-	  
 
  {
       title: "",
