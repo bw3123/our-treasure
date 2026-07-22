@@ -2313,6 +2313,44 @@ https://www.scientificamerican.com/.../can-science.../`
 
 	  {
       title: "",
+      date: "2026-07-22",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/cheerio1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/Cheerios2.png"
+		   ],
+      content: `Why do tiny floating objects move toward each other on water?
+
+At first glance, two small objects floating on the surface of water shouldn't have any noticeable interaction. Yet, if you place them close together, they often drift toward one another as if an invisible force were pulling them together. This fascinating phenomenon is known as the Cheerios Effect.
+
+The name comes from a simple observation: breakfast cereal pieces, such as Cheerios, floating in a bowl of milk tend to cluster together or move toward the edge of the bowl instead of remaining evenly scattered.
+
+So, what causes this behavior?
+
+The answer lies in the unique nature of water's surface.
+
+Water molecules are strongly attracted to one another through hydrogen bonds. These intermolecular forces create surface tension, causing the surface of water to behave like a thin, stretched elastic membrane.
+
+When a small object floats on the surface, it does not simply rest on a flat layer of water. Instead, its weight and surface properties deform the water surface, creating a tiny depression or elevation around the object.
+
+When another floating object comes nearby, it also deforms the water surface. Rather than interacting directly with each other, the objects interact through these surface deformations.
+
+If both objects create similar curvatures of the water surface, they naturally move toward one another. This happens because joining together reduces the total deformation of the water surface, lowering the system's surface energy. Since physical systems naturally evolve toward the lowest-energy state, the objects appear to attract each other.
+
+On the other hand, if the two objects create opposite types of curvature, bringing them together would increase the deformation and therefore increase the surface energy. In this case, surface tension pushes them apart, producing an apparent repulsion.
+
+It is important to note that weight alone does not determine whether two floating objects attract or repel each other. The outcome depends on several factors, including:
+
+• The object's mass.
+• Its size and shape.
+• How deeply it sinks into the liquid.
+• Whether its surface is hydrophilic (water-attracting) or hydrophobic (water-repelling).
+
+The Cheerios Effect is a beautiful example of how microscopic molecular forces can produce surprisingly large and visible motions. What looks like an invisible attraction between floating objects is actually the result of surface tension working to minimize the energy stored in the curved surface of the liquid.`
+    },
+
+
+	  {
+      title: "",
       date: "2026-07-15",
       photos: [
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/random3.jpg",
