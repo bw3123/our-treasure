@@ -2310,7 +2310,94 @@ https://www.scientificamerican.com/.../can-science.../`
 ],
   wednesday: [
 
+/*
+	  {
+      title: "",
+      date: "2026-07-22",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/cheerio1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/Cheerios2.png"
+		   ],
+      content: ``
+    },*/
 
+	   {
+      title: "",
+      date: "2026-07-29",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/zombi1.jpg",
+		"https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/zombi2.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/zombi3.png"
+		   ],
+      content: `Did You Know There Is a Fungus That Turns Ants Into "Zombies"?
+
+It may sound like something out of a science fiction movie or a horror novel, but it is actually a real biological phenomenon that has fascinated scientists for decades.
+
+The fungus, known as Ophiocordyceps, is a parasitic fungus that infects specific species of ants. It has evolved an extraordinary life cycle that depends on manipulating the behavior of its host to ensure its own survival and reproduction.
+
+How does the process begin?
+
+The story starts when microscopic fungal spores land on an ant as it walks through the forest. These spores attach to the ant's hard outer shell and release enzymes that allow them to penetrate the exoskeleton and enter the body.
+
+Once inside, the fungus begins to grow, feeding on nutrients from the ant without killing it immediately. Instead, it keeps the ant alive long enough to complete the next stage of its life cycle.
+
+Does the fungus actually control the ant's brain?
+
+Surprisingly, recent research suggests that the fungus does not directly invade the ant's brain, as scientists once believed.
+
+Instead, it spreads throughout the ant's body and produces chemical compounds that influence the ant's nervous system and muscles. These chemicals alter the ant's normal behavior, causing it to perform actions that benefit the fungus.
+
+In other words, rather than taking over the brain itself, the fungus changes the biological signals that control the ant's movement and behavior.
+
+What happens to the infected ant?
+
+As the infection progresses, the ant begins behaving strangely. It leaves the safety of its colony, something healthy ants rarely do.
+
+The infected ant then climbs vegetation until it reaches a height with the perfect combination of temperature and humidity for fungal growth.
+
+Once it reaches this ideal location, it performs what scientists call the "death grip." The ant bites tightly onto the underside of a leaf or a small branch with its powerful jaws and remains locked in place.
+
+This behavior is not accidental—it is essential for the fungus to complete its life cycle.
+
+What happens after the ant dies?
+
+After the ant dies, the fungus consumes the remaining tissues inside its body.
+
+Soon afterward, a long stalk grows out of the ant's head or another part of its body. At the tip of this stalk, the fungus develops a fruiting structure that produces thousands of new spores.
+
+When these spores mature, they are released into the air and fall onto the forest floor below, where they can infect other ants and begin the cycle again.
+
+Why does the fungus choose an elevated location?
+
+The elevated position provides ideal environmental conditions for fungal growth while also allowing the spores to spread more effectively through the air.
+
+The place where the ant dies is therefore carefully "chosen" through the fungus-induced behavior because it maximizes the chances of infecting new hosts.
+
+Can this fungus infect humans?
+
+The answer is no.
+
+Ophiocordyceps is highly specialized. Different species of the fungus infect different insects, and each has evolved alongside its specific host over millions of years.
+
+There is no scientific evidence that these fungi can infect humans or manipulate human behavior in the same way. Human body temperature, immune defenses, and biology are completely different from those of insects.
+
+Why are scientists interested in studying it?
+
+Researchers study this remarkable fungus because it provides valuable insights into:
+
+How parasites influence animal behavior.
+The chemical communication between parasites and their hosts.
+The evolution of host-parasite relationships.
+Potential medical and pharmaceutical applications of compounds produced by fungi.
+
+A Remarkable Example of Evolution
+
+Although the phrase "zombie ant" sounds frightening, this phenomenon is actually an extraordinary example of evolution.
+
+Over millions of years, the fungus evolved an incredibly precise strategy to survive and reproduce, while ants evolved defensive behaviors—such as removing infected individuals from the colony—to reduce the spread of infection.
+
+Nature is filled with interactions that seem stranger than fiction, and the relationship between Ophiocordyceps and ants is one of the most fascinating examples of how evolution can shape the lives of living organisms.`
+    },
 	  {
       title: "",
       date: "2026-07-22",
