@@ -137,8 +137,35 @@
       </div>
     </div>
   </div>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/QeXC0kXwchw?si=J9ulnB7yMEsWzcUa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <div class="timeline wed-timeline" id="timeline-wed">
+<div class="youtube-container">
+  <iframe
+    src="https://www.youtube.com/embed/QeXC0kXwchw?si=J9ulnB7yMEsWzcUa"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<style>
+.youtube-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #000;
+}
+
+.youtube-container iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+</style>  <div class="timeline wed-timeline" id="timeline-wed">
     <div class="timeline-line"></div>
   </div>
 </div>
