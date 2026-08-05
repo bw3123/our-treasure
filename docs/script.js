@@ -3814,19 +3814,47 @@ function buildCarousel(isWed) {
 
 	track.innerHTML = carouselPhotos.map(p => `
 	  <div class="carousel-slide">
-		${
-		  p.endsWith('.mp4')
-		  ? `
-			<video
-			  controls
-			  playsinline
-			  style="width:100%;height:100%;object-fit:contain;background:#000;"
-			>
-			  <source src="${p}" type="video/mp4">
-			</video>
-		  `
-		  : `<img src="${p}" alt="" />`
-		}
+		${(() => {
+
+  // MP4
+  if (p.endsWith(".mp4")) {
+    return `
+      <video
+        controls
+        playsinline
+        style="width:100%;height:100%;object-fit:contain;background:#000;">
+        <source src="${p}" type="video/mp4">
+      </video>
+    `;
+  }
+
+  // YouTube
+  if (p.includes("youtube.com") || p.includes("youtu.be")) {
+
+    let id = "";
+
+    if (p.includes("watch?v=")) {
+      id = p.split("watch?v=")[1].split("&")[0];
+    } else if (p.includes("youtu.be/")) {
+      id = p.split("youtu.be/")[1].split("?")[0];
+    }
+
+    return `
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/${id}"
+        frameborder="0"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+      </iframe>
+    `;
+  }
+
+  // Image
+  return `<img src="${p}" alt="">`;
+
+})()}
 	  </div>
 	`).join('');
 
