@@ -2320,7 +2320,18 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
-
+ {
+      title: "Its gonna be long 20 min",
+      date: "2026-08-5",
+      photos: [
+        "https://youtu.be/QeXC0kXwchw?si=J9ulnB7yMEsWzcUa"
+		   ],
+      content: `The video was meant to be spontaneous,
+	  so I sincerely apologize if anything I said was inaccurate, misunderstood,
+	  or not communicated in the right way.
+	  I also apologize if any of my words came across poorly or gave the wrong impression.
+	  That was never my intention, and I'm truly sorry for any confusion or offense caused.`
+    },
 	   {
       title: "",
       date: "2026-07-29",
