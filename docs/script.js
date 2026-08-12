@@ -2320,6 +2320,193 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+
+	   {
+      title: "",
+      date: "2026-08-12",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/robin1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/robin2.jpg"
+		   ],
+      content: `Batman didn’t have one Robin.
+
+He had a legacy.
+
+The Robin identity was never just a sidekick costume. Each person who became Robin changed Batman, challenged him, and carried a different piece of his mission forward.
+
+1. Dick Grayson — The First Robin
+
+Dick was a young circus acrobat whose parents were murdered in front of him. Bruce saw the same kind of pain he had experienced in Dick, but instead of letting that pain turn him into Batman, he gave Dick a different path.
+
+Dick became the first Robin.
+
+He was everything Batman wasn’t: optimistic, energetic, social, and willing to bring some light into Bruce’s life. He became incredibly skilled and eventually realized he couldn’t stay Robin forever.
+
+He created his own identity: Nightwing.
+
+Dick taught Batman that Gotham didn’t have to be faced alone, and that Bruce Wayne could actually have a family.
+
+2. Jason Todd — The Second Robin
+
+Jason was very different.
+
+Bruce found him trying to steal the tires off the Batmobile. He was angry, reckless, and already living a life shaped by crime and poverty.
+
+Bruce took him in and trained him to become Robin.
+
+Jason was more aggressive than Dick. He fought with anger and wanted criminals to suffer for what they had done.
+
+Eventually, that anger became part of his tragedy.
+
+The Joker kidnapped Jason and brutally beat him before killing him in an explosion.
+
+Bruce lost Robin.
+
+But Jason's death wasn't permanent.
+
+In the comics, he was eventually brought back through a combination of the Lazarus Pit and reality-altering events. Talia al Ghul eventually became involved in his restoration, and Jason returned physically alive but deeply damaged and unstable.
+
+He was later manipulated and trained, eventually becoming Red Hood.
+
+But Jason wasn't simply angry because Batman failed to save him.
+
+He was angry because Batman let the Joker live.
+
+From Jason's perspective, the Joker had murdered him, yet Batman still refused to break his one rule: killing.
+
+So Jason's conflict with Batman became deeply personal.
+
+He was essentially asking:
+
+What is the point of Batman's rule if the Joker is allowed to keep killing people?
+
+Jason taught Batman one of his hardest lessons: sometimes saving someone doesn't mean you can save them from every consequence of the life they've chosen.
+
+3. Tim Drake — The Third Robin
+
+Tim was different from both of them.
+
+He was a detective.
+
+Tim didn't discover Batman's identity because Batman made a mistake.
+
+He deduced it.
+
+He studied Batman and Robin and noticed that Robin's fighting style resembled Dick Grayson's. He connected Dick's history as a circus acrobat with his relationship to Bruce Wayne.
+
+Eventually, Tim figured out:
+
+Bruce Wayne → Batman.
+Dick Grayson → Robin.
+
+But Tim realized something even more important.
+
+After Jason's death, Batman was becoming darker and more reckless.
+
+Tim believed Batman needed a Robin.
+
+Not simply because Batman needed help fighting crime, but because Batman needed someone who could keep him from being consumed by his grief and anger.
+
+So Tim didn't become Robin because Bruce rescued him.
+
+He basically argued his way into the role.
+
+Tim eventually became Red Robin, continuing the legacy in his own way.
+
+He taught Batman that sometimes being Robin wasn't about being saved by Batman.
+
+Sometimes Robin was the one saving Batman.
+
+4. Stephanie Brown — The Robin Who Wasn't Supposed To Be
+
+Stephanie had already been fighting crime as Spoiler when she briefly became Robin.
+
+Her time as Robin was complicated. Bruce didn't fully trust her, and their relationship was difficult.
+
+She eventually left the role, showing something important:
+
+Being Robin isn't simply about wearing the suit.
+
+It's about trust, discipline, and understanding what Batman is asking of you.
+
+Stephanie later returned to crime-fighting as Spoiler and also became Batgirl.
+
+5. Damian Wayne — Batman's Son
+
+Then came Damian.
+
+Damian is different from every Robin before him because he's Bruce Wayne's biological son.
+
+His mother is Talia al Ghul, daughter of Ra's al Ghul, making Damian the grandson of one of Batman's greatest enemies.
+
+Damian was raised largely within the League of Assassins, trained from childhood in combat, assassination, strategy, and weapons.
+
+So when Damian enters Bruce's life, he isn't an ordinary kid who wants to become Robin.
+
+He's already an incredibly dangerous fighter.
+
+The problem is that Damian has been taught that killing is acceptable and that being the strongest makes him superior to everyone else.
+
+Bruce has to teach him the opposite.
+
+Being Batman's son doesn't make him entitled to anything.
+
+Being Robin isn't about being the strongest fighter.
+
+It's about having the strength to choose not to kill.
+
+That's what makes Damian's relationship with Bruce so interesting.
+
+Bruce isn't just training another Robin.
+
+He's trying to raise his own son into a better man than the people who raised him.
+
+And Damian eventually becomes one of the clearest examples of what the Robin legacy really means:
+
+Batman isn't just passing down a costume. He's passing down his values.
+
+And that's the interesting thing about Robin.
+
+Every Robin changed.
+
+Dick brought Batman hope.
+
+Jason brought him pain.
+
+Tim brought him reason.
+
+Stephanie challenged his trust.
+
+Damian forced him to confront his own legacy.
+
+Batman thought he was training Robins to help him fight crime.
+
+But in reality, the Robins were training Batman too.
+
+They taught him how to trust.
+
+How to care.
+
+How to be a father.
+
+How to let people grow beyond him.
+
+And most importantly, they taught him that Batman was never supposed to be a symbol that belonged only to Bruce Wayne.
+
+That's why Robin is a legacy.
+
+The suit changes.
+
+The person changes.
+
+The relationship with Batman changes.
+
+But the idea remains the same:
+
+Batman doesn't create Robins because he needs someone to stand behind him.
+
+He creates them because, eventually, they learn how to stand beside him.`
+    },
  {
       title: "Its gonna be long 20 min",
       date: "2026-08-5",
