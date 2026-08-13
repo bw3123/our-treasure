@@ -2320,6 +2320,104 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+	   {
+      title: "LOVE U BB",
+      date: "2026-08-13",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/promis.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/promis1.jpg"
+		   ],
+      content: `I’ve been thinking a lot about us lately, about how far we’ve come and how much more there is ahead of us. And honestly, one of the most beautiful things about loving you is knowing that our story isn’t just about everything we’ve already experienced together, but about everything we’re still going to experience.
+
+I don’t want to make you promises that sound perfect or unrealistic. I don’t promise that every day will always be easy, or that we’ll never disagree, or that everything will always go exactly how we imagined. But I do want to promise you something real.
+
+I promise to keep choosing you.
+
+As we grow, as our relationship becomes stronger, as life changes around us, I promise that I’ll keep putting effort into us. I’ll keep learning you, understanding you, listening to you, and appreciating the little things that make you who you are. I never want to get so comfortable that I forget how lucky I am to have you.
+
+I also want to be honest with you about something.
+
+I know I’m not perfect. I’m aware that sometimes I make things more difficult for you than they need to be. I know that sometimes I get defensive too quickly, and sometimes I get jealous more than I should. I know there are things about the way I react that I still need to work on.
+
+And I’m not saying that to excuse any of it.
+
+I know that some of these feelings come from how much my love for you keeps growing day after day. The more I love you, the more I care, and sometimes that comes out in ways that I need to learn how to control better. Some things are normal feelings, but I also know that having a feeling doesn’t mean I should let it control how I treat you.
+
+So I promise I’ll keep working on that.
+
+I ask you to be a little patient with me while I’m learning, because I am genuinely dealing with it and trying to become better. And that’s another promise I’m making to you: I will do my best to make loving me easier for you, not harder. I want you to feel safe with me, understood by me, and loved by me.
+
+We’re still in a phase where we’re learning each other. We’re still figuring out our differences, adapting to each other, understanding each other’s points of view, and learning what makes each other feel loved. We’re still making our own little rules and understanding what works for us and what doesn’t.
+
+And honestly, I’m proud of us for where we’ve gotten.
+
+I’m proud of how we’re learning to deal with things. I’m proud that we’re not pretending everything is perfect, but instead actually trying to understand each other and improve. I believe that’s the healthy way to build something real. We’re learning, adapting, growing, and becoming better together.
+
+And I truly believe we’ll get to the goal we both want.
+
+I promise that when things get difficult, I won’t only want to be there for the easy parts. I want to be there when you’re happy, when you’re stressed, when you’re excited, when you’re tired, when you need someone to listen, and when you don’t even know what you need. I want to be the person you can always come back to.
+
+I promise to communicate with you, even when it’s hard. To talk instead of assuming. To understand instead of immediately getting defensive. To fix things instead of letting pride get in the way. Because I don’t want us to be two people who are perfect together. I want us to be two people who are willing to work through things together.
+
+And there’s another promise I want to make to you.
+
+I promise you, I will never be the kind of husband who gets irritated with his wife, distances himself from her, pulls away, or avoids closeness. No matter what happens between us, no matter the reason, and no matter any other stupid reason that won’t change the fact that now I’m yours and you’re mine. We’re happily together, building our happiness on the destruction of the past, "together" and "side by side".  
+
+No matter what happens.
+
+No matter what we go through.
+
+No matter how difficult a situation becomes.
+
+I know what I’m signing up for, and I’m willing to deal with everything that comes with it—not because I’m forced to, but because I willingly choose you and everything that comes with loving you.
+
+And honestly, I don’t think this promise will ever be difficult for me to keep. You won’t have to see me struggling to remember why I chose you.
+
+Because, daah… I’m in love with you.
+
+And when I say I’m in love with you, I mean it in the deepest way I know how to explain. Nothing—and I mean nothing—will change that. Nothing will make my love for you become less, not even for a second.
+
+I want more memories with you. More random nights, more long conversations, more laughs over things that probably aren’t even funny to anyone else, more pictures we’ll look back at years from now, more places we haven’t seen, more experiences we haven’t had, and more ordinary days that somehow become special simply because they were with you.
+
+I want to see you achieve your dreams and be beside you while you become everything you want to be. I want to celebrate your wins like they’re my own, support you through your setbacks, and remind you of how capable you are whenever you forget.
+
+I don’t know exactly what the future has waiting for us, and I don’t think we need to know every detail yet. But I know I want to keep moving forward with you.
+
+I want to see where this love takes us.
+
+I want to keep watching our relationship grow from where it is now into something even stronger, deeper, and more meaningful. I want to keep learning you, even years from now. I want to keep discovering new sides of you and falling in love with them.
+
+And if one day we look back at this version of us, I hope we’re proud of how much we grew together. I hope we remember the little moments, the difficult moments, the stupid arguments, the endless laughs, the late-night talks, and everything in between.
+
+I hope we can say that through every stage, we kept choosing each other.
+
+So my promise to you isn’t just about forever.
+
+It’s about every day between now and forever.
+
+I promise to keep loving you, keep choosing you, keep supporting you, keep growing with you, keep working on myself for us, and keep putting my heart into this relationship.
+
+I promise to never stop trying just because we’ve gotten comfortable.
+
+I promise to never let a difficult moment make me forget how much you mean to me.
+
+I promise that even when we’re still learning, adapting, and figuring things out, I’ll remember that we’re on the same team.
+
+And I promise that whatever comes next, I want to experience it with you.
+
+I wrote this as a post because I want it to stay documented. I want you to be able to come back to it one day and remind me of the promises I made to you. I want these words to exist somewhere so that no matter how much time passes, you can always look back and know exactly what I promised you.
+
+No matter what we go through.
+
+No matter what happens.
+
+Nothing will change what I feel for you.
+
+I will always be by your side.
+
+Forever and beyond, Insha’Allah.
+`
+    },
  {
       title: "",
       date: "2026-08-13",
