@@ -812,13 +812,14 @@
 }
 
 
+
 .wed-new-posts {
   width: fit-content;
   margin: -10px auto 0;
-  padding: 14px 28px;
+  padding: 18px 35px;
 
   color: #f0abfc;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: 0.04em;
 
