@@ -2668,6 +2668,7 @@ He creates them because, eventually, they learn how to stand beside him.`
       title: "Its gonna be long 20 min",
       date: "2026-08-5",
 	 photos: [
+		 "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/8_8.jpg",
         "https://www.youtube.com/watch?v=QeXC0kXwchw"
 		   ],
       content: `The video was meant to be spontaneous,
