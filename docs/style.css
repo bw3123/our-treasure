@@ -810,3 +810,31 @@
   display: block;
   border: 0;
 }
+
+
+.wed-new-posts {
+  width: fit-content;
+  margin: 14px auto 0;
+  padding: 8px 16px;
+  border-radius: 999px;
+
+  color: #f0abfc;
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  background: rgba(217,70,239,0.1);
+  border: 1px solid rgba(217,70,239,0.3);
+
+  box-shadow: 0 0 20px rgba(217,70,239,0.12);
+
+  animation: newPostGlow 2s ease-in-out infinite;
+}
+
+@keyframes newPostGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(217,70,239,0.1);
+  }
+  50% {
+    box-shadow: 0 0 24px rgba(217,70,239,0.3);
+  }
+}
