@@ -2320,7 +2320,66 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+ {
+      title: "",
+      date: "2026-08-13",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/allais.jpg"
+		   ],
+      content: `Why do people sometimes make decisions that seem irrational—even when the probabilities are right in front of them?
 
+The Allais Paradox is a classic example from economics and decision theory that shows how human preferences can contradict expected utility theory.
+
+Imagine you’re given a choice:
+
+Option A:
+100% chance of winning $1 million
+
+Option B:
+🎲 89% chance of winning $1 million
+🎲 10% chance of winning $5 million
+🎲 1% chance of winning nothing
+
+Most people choose A.
+
+That makes intuitive sense. Even though B gives you a chance at $5 million, A guarantees you walk away with $1 million.
+
+Now imagine a second choice:
+
+Option C:
+🎲 11% chance of winning $1 million
+🎲 89% chance of winning nothing
+
+Option D:
+🎲 10% chance of winning $5 million
+🎲 90% chance of winning nothing
+
+Here, many of the same people choose D.
+
+And this is where things get interesting.
+
+If you chose A over B in the first scenario, and D over C in the second, your preferences are inconsistent with the assumptions of standard expected utility theory.
+
+Why?
+
+The key is the certainty effect.
+
+We tend to give a disproportionately high value to outcomes that are certain. A guaranteed $1 million feels fundamentally different from a 99% chance of getting $1 million—even though the difference in probability is only 1 percentage point.
+
+But when neither outcome is certain, we become much more willing to take the risk for a potentially larger reward.
+
+The Allais Paradox matters because it shows that people aren't always calculating probabilities and expected payoffs like perfectly rational machines.
+
+Our decisions are influenced by how we perceive risk, certainty, and potential losses.
+
+And that insight became hugely important in behavioral economics, helping pave the way for later theories about how people actually make decisions under uncertainty.
+
+Sometimes, we don't just ask “What has the highest expected value?”
+
+We also ask:
+
+“How certain am I that I’ll get something?” `
+    },
 	   {
       title: "",
       date: "2026-08-12",
