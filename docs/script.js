@@ -2327,67 +2327,97 @@ https://www.scientificamerican.com/.../can-science.../`
       photos: [
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/facts.png"
 		   ],
-      content: `Real Facts You May Never Have Thought About Before
-	  
-You carry traces of organisms that lived billions of years before you.
+      content: `Real Facts You Might Not Have Known
+1. You carry traces of organisms that lived billions of years before you.
 Many of the basic mechanisms inside your cells can be traced back to extremely ancient ancestors.
-Your body is not made up only of human cells.
+
+2. Your body is not made up only of human cells.
 Huge numbers of microorganisms live inside you and on your skin, forming a complex biological system together with you.
-Your heart does not need you to remember to keep it beating.
+
+3. Your heart does not need you to remember to keep it beating.
 Its cells can generate the electrical activity that regulates its rhythm automatically.
-Your brain can create memories of events that did not happen exactly the way you remember them.
+
+4. Your brain can create memories of events that did not happen exactly the way you remember them.
 Memory is not a video recording; it is a reconstruction.
-When you were an embryo, your body was building your organs before you had any awareness of your existence.
+
+5. When you were an embryo, your body was building your organs before you had any awareness of your existence.
 Millions of processes were happening inside you without any conscious control from you.
-Some cells in your body may carry genetic mutations that are different from those in other cells.
+
+6. Some cells in your body may carry genetic mutations that are different from those in other cells.
 Therefore, not all the cells in your body necessarily have perfectly identical genomes.
-Your brain can change its structure in response to what you repeatedly do.
+
+7. Your brain can change its structure in response to what you repeatedly do.
 Learning is not simply “adding information”; experience can change neural connections.
-Bone is alive.
+
+8. Bone is alive.
 Your bones are constantly broken down and rebuilt by specialized cells. They are not simply lifeless solid structures.
-Your retina is part of your nervous system, not simply a biological camera.
+
+9. Your retina is part of your nervous system, not simply a biological camera.
 Visual information begins being processed before the signals reach other parts of the brain.
-Almost every cell in your body contains a huge set of instructions for building an entire body, but it uses only a fraction of them.
+
+10. Almost every cell in your body contains a huge set of instructions for building an entire body, but it uses only a fraction of them.
 An eye cell and a muscle cell contain very similar DNA, but they use different sets of genes.
-The mitochondria inside your cells have their own DNA.
+
+11. The mitochondria inside your cells have their own DNA.
 Even stranger, they are believed to have originally been free-living organisms that entered into a symbiotic relationship with the ancestors of our cells long ago.
-Your perception of your own body can change.
+
+12. Your perception of your own body can change.
 Your brain creates an internal model of your body, and under certain circumstances, it can be tricked into believing that something external is part of your body.
-You carry traces of ancient viruses inside your genome.
+
+13. You carry traces of ancient viruses inside your genome.
 Some viruses that infected distant ancestors left parts of their genetic material behind, and some of those sequences still exist in humans today.
-A human being begins life as approximately a single cell and eventually becomes an organism made up of trillions of specialized cells.
-Your body constantly maintains its temperature even while the environment around you changes.
+
+14. A human being begins life as approximately a single cell and eventually becomes an organism made up of trillions of specialized cells.
+
+15. Your body constantly maintains its temperature even while the environment around you changes.
 You are living inside a biological control system that operates continuously.
-Cells can deliberately destroy themselves when they become dangerous or unnecessary.
+
+16. Cells can deliberately destroy themselves when they become dangerous or unnecessary.
 This process is called apoptosis, and it is a normal and essential part of development and maintaining the body.
-You have never directly seen your actual face.
+
+17. You have never directly seen your actual face.
 Everything you have seen is a reflection or photograph of your face, not your face from another person's point of view.
-You do not directly see the world.
+
+18. You do not directly see the world.
 Your brain receives electrical signals from your eyes and constructs an internal version of the world from them.
-The person you were at age five is almost completely gone, yet you still consider yourself the same person.
+
+19. The person you were at age five is almost completely gone, yet you still consider yourself the same person.
 Your body, thoughts, memories, and personality have all changed.
-If there were someone physically identical to you who lived a completely different life, they could have memories that made them believe they were the “original” version of you.
+
+20. If there were someone physically identical to you who lived a completely different life, they could have memories that made them believe they were the “original” version of you.
 So which one of you would actually be “you”?
-Most of the atoms that make up your body existed billions of years before you were born.
+
+21. Most of the atoms that make up your body existed billions of years before you were born.
 You are literally made of matter that is unimaginably older than you.
-Some of the stars you see in the sky may no longer exist.
+
+22. Some of the stars you see in the sky may no longer exist.
 The light reaching your eyes may have started its journey thousands or even millions of years ago.
-Every night, your conscious experience disappears for hours, and then you wake up assuming that the person who woke up is the same person who went to sleep.
+
+23. Every night, your conscious experience disappears for hours, and then you wake up assuming that the person who woke up is the same person who went to sleep.
 There is no continuous conscious experience connecting the two moments.
-You hear your own voice differently from how other people hear it.
+
+24. You hear your own voice differently from how other people hear it.
 When you speak, sound reaches you through the air and also through vibrations traveling through your body.
-Your brain can fill in things that are not actually there without telling you that it has done so.
+
+25. Your brain can fill in things that are not actually there without telling you that it has done so.
 This means you can be extremely confident about something that did not happen exactly as you remember it.
-You may have already walked past someone who will become extremely important in your future without knowing it.
-The person you will be 20 years from now exists as a possible future version of you, but they know nothing about your current life.
+
+26. You may have already walked past someone who will become extremely important in your future without knowing it.
+
+27. The person you will be 20 years from now exists as a possible future version of you, but they know nothing about your current life.
 One day, you may look back at your present self almost as if you were looking at another person.
-There are people who remember you right now while you have no idea that they are thinking about you.
-Your personality can change gradually to the point where, years from now, you may disagree with decisions you make today, yet you will still say, “I was the one who did that.”
-Your body is not as physically “fixed” as it appears.
+
+28. There are people who remember you right now while you have no idea that they are thinking about you.
+
+29. Your personality can change gradually to the point where, years from now, you may disagree with decisions you make today, yet you will still say, “I was the one who did that.”
+
+30. Your body is not as physically “fixed” as it appears.
 You are a constantly changing system: materials enter, materials leave, cells are renewed, and other cells die.
-The number of people older than you does not simply increase as you grow older.
+
+31. The number of people older than you does not simply increase as you grow older.
 As time passes, some people older than you die, while people who were younger than you become older than you. The number of people older than you is constantly changing and does not necessarily move in only one direction.
-When you think about yourself, the thing trying to understand “Who am I?” is itself part of the thing it is trying to understand.`
+
+32. When you think about yourself, the thing trying to understand “Who am I?” is itself part of the thing it is trying to understand.`
     },
 	  
 	   {
