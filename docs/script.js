@@ -2419,7 +2419,9 @@ You are a constantly changing system: materials enter, materials leave, cells ar
 31. The number of people older than you does not simply increase as you grow older.
 As time passes, some people older than you die, while people who were younger than you become older than you. The number of people older than you is constantly changing and does not necessarily move in only one direction.
 
-32. When you think about yourself, the thing trying to understand “Who am I?” is itself part of the thing it is trying to understand.`
+32. When you think about yourself, the thing trying to understand “Who am I?” is itself part of the thing it is trying to understand.
+
+share with me your thoughts ..... `
     },
 	  
 	   {
