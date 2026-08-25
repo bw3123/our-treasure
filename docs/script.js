@@ -2320,7 +2320,101 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+  {
+      title: "Neutered cats",
+      date: "2026-08-26",
+      photos: [
+        "https://youtu.be/hr9V9RVQym8"
+		   ],
+      content: `**Why do neutered cats often need different food? 🐱**
 
+Neutering is not simply a reproductive procedure. It causes hormonal changes that can affect a cat’s appetite, activity level, metabolism, and energy needs.
+
+Here is what happens:
+
+### 1. Neutering changes the hormones
+
+After neutering, sex hormone levels drop significantly.
+
+As a result, many cats experience:
+
+* Lower energy requirements
+* Increased appetite
+* Less activity
+* A greater tendency to gain weight
+
+Not every cat will experience all of these changes, but the risk of weight gain increases after neutering.
+
+### 2. The problem starts when food intake doesn't change
+
+Imagine that before neutering, your cat needs a certain amount of energy to maintain its weight.
+
+After neutering, its body may need fewer calories.
+
+If the cat continues eating the same amount—or has unlimited access to food—it may consume more calories than it actually needs.
+
+The result is:
+
+**Neutering → lower energy needs + increased appetite → excess calories → weight gain → obesity**
+
+### 3. Why is obesity a serious problem?
+
+Extra weight is not just a cosmetic issue.
+
+Obesity can increase the risk of:
+
+* Diabetes
+* Joint and mobility problems
+* Reduced activity
+* Certain urinary problems
+* Other chronic health issues
+
+This is why weight management becomes especially important after neutering.
+
+### 4. So why is there food specifically for neutered cats?
+
+The main purpose of “Neutered” or “Sterilized” food is to help manage the cat’s new nutritional needs.
+
+These foods are often formulated with:
+
+* Appropriate calorie density
+* Controlled fat and energy levels
+* Nutrients that support lean muscle
+* Ingredients designed to help with satiety
+* Nutritional considerations for urinary health in some formulas
+
+The goal is simple:
+
+**Give the cat all the nutrients it needs without giving it more calories than it needs.**
+
+### 5. Does every neutered cat absolutely need special food?
+
+Not necessarily.
+
+A neutered cat can remain perfectly healthy on a high-quality, complete and balanced diet if its calorie intake is properly controlled and its weight is monitored.
+
+The important thing is not simply the word **“Neutered”** on the package.
+
+What matters is:
+
+**How many calories does the cat need?
+How much is it actually eating?
+What is its body condition?
+Is it maintaining a healthy weight?
+Is it getting enough water?**
+
+### The key idea
+
+Neutering changes the cat’s hormonal environment, and this can change how much food and energy the cat needs.
+
+If we continue feeding the cat exactly as we did before neutering, without adjusting for these changes, the cat may gradually gain weight.
+
+So the purpose of neutered-cat nutrition is not that the cat has suddenly become “sick.”
+
+It is about **adapting its diet to its new physiology and preventing problems before they start.**
+
+**Neutering → hormonal changes → different energy needs → adjust nutrition → maintain a healthy weight → healthier cat.** 🐾`
+    },
 	  {
       title: "",
       date: "2026-08-19",
