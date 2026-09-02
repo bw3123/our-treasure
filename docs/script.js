@@ -2320,6 +2320,119 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+	   {
+      title: "",
+      date: "2026-09-2",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/chess3.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/chess2.webp",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/chess1.jpg"
+		   ],
+      content: `♟️ The 1,500-Year Journey of Chess: From Battlefield to Brain Game
+
+Imagine it’s the 6th century.
+
+You’re sitting in ancient India, watching a game unfold on a wooden board.
+
+But this isn’t the chess we know today.
+
+The board represents a battlefield.
+The king is there.
+Soldiers surround him.
+Elephants, horses, chariots, and infantry prepare for war.
+
+The game is called Chaturanga.
+
+And without anyone realizing it, a game is born that will survive for more than a thousand years.
+
+🌍 Then, the journey begins...
+
+From India, the game travels west into Persia, where it becomes known as Shatranj.
+
+The Persians add their own ideas and culture to the game.
+
+Then comes a dramatic moment:
+
+Persia falls to the Arab armies.
+
+But instead of disappearing, chess travels with the conquerors.
+
+♟️ It spreads across the Islamic world…
+♟️ Reaches North Africa…
+♟️ Enters Europe through Spain and other routes…
+
+And the game keeps changing.
+
+By medieval Europe, the board looks increasingly familiar — but the pieces are still surprisingly weak.
+
+The queen, for example, is nothing like the powerful queen we know today.
+
+Then, around the 15th century, everything changes.
+
+💥 The Queen becomes powerful.
+
+Suddenly, she can move across the board in almost any direction.
+
+Games become faster.
+
+Attacks become more explosive.
+
+And chess transforms from a slow strategic battle into something much closer to the game we recognize today.
+
+Fast forward a few centuries...
+
+👑 Kings and queens play it.
+🧠 Intellectuals obsess over it.
+☕ Cafés become famous chess meeting places.
+🏆 The first world championship era arrives.
+
+Then chess enters the modern age.
+
+In 1972, Bobby Fischer faces Boris Spassky in the famous "Match of the Century."
+
+Chess becomes more than a board game.
+
+It becomes a symbol of the Cold War.
+
+Then comes another turning point.
+
+💻 The computer enters the chessboard.
+
+In 1997, IBM's Deep Blue defeats world champion Garry Kasparov.
+
+For the first time, humanity sees something extraordinary:
+
+A machine can calculate chess positions better than the world's greatest player.
+
+But chess doesn't disappear.
+
+It evolves again.
+
+♟️ Computers become training partners.
+♟️ Engines analyze millions of positions.
+♟️ Online chess brings players together from across the planet.
+♟️ And today, AI systems can play at a level humans struggle to comprehend.
+
+And yet...
+
+The board hasn't changed.
+
+64 squares.
+32 pieces.
+Two players.
+
+What started as a simulation of an ancient battlefield became a game of kings, then a test of human intelligence, then a battlefield between humans and machines.
+
+Chess didn't survive 1,500 years because it stayed the same.
+
+It survived because it kept evolving.
+
+And perhaps that's the most beautiful thing about chess:
+
+Every generation thinks it has finally understood the game...
+
+Until someone makes the next move. ♟️`
+    },
   {
       title: "Neutered cats",
       date: "2026-08-26",
