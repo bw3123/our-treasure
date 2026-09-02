@@ -4368,7 +4368,19 @@ function renderPosts(posts, containerId, isWed) {
     if (post.photos && post.photos.length) {
       card.innerHTML += `
         <div class="card-img">
-          <img src="${post.photos[0]}" alt="" loading="lazy" />
+          ${post.photos[0].includes('youtube.com') || post.photos[0].includes('youtu.be')
+			  ? `<img src="https://img.youtube.com/vi/${
+			      post.photos[0].includes('watch?v=')
+			        ? post.photos[0].split('watch?v=')[1].split('&')[0]
+			        : post.photos[0].split('youtu.be/')[1].split('?')[0]
+			    }/hqdefault.jpg" alt="" loading="lazy" />`
+			  : post.photos[0].toLowerCase().split('?')[0].endsWith('.mp4')
+			    ? `<video muted playsinline preload="metadata">
+			         <source src="${post.photos[0]}" type="video/mp4">
+			       </video>`
+			    : `<img src="${post.photos[0]}" alt="" loading="lazy" />`
+			}
+
           <div class="card-img-overlay"></div>
           ${post.photos.length > 1 ? `<span class="${isWed ? 'photo-count wed-photo-count' : 'photo-count'}">
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
