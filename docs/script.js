@@ -2320,6 +2320,35 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+	    {
+      title: "",
+      date: "2026-09-16",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/protein1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/protein2.png"
+		   ],
+      content: `Protein Folding and Misfolding
+
+Proteins are among the most important molecules in every living organism. They help build cells and tissues, transport molecules, accelerate chemical reactions, send signals, defend the body, and carry out countless other biological functions. But before a protein can perform its job, something remarkable has to happen: it must fold into the correct three-dimensional structure.
+
+A protein begins as a long chain of amino acids. The order of these amino acids is determined by genetic information, but the chain does not remain straight. Chemical interactions between different parts of the molecule cause it to bend, twist, and fold into a specific shape.
+
+This three-dimensional structure is essential because a protein's shape determines how it interacts with other molecules. For example, enzymes have precisely shaped active sites that allow them to bind particular molecules and catalyze chemical reactions. Antibodies have structures that allow them to recognize specific targets. A change in shape can therefore change the function of the entire protein.
+
+Protein folding is influenced by many factors, including the amino acid sequence, chemical interactions, temperature, cellular conditions, and specialized molecules called molecular chaperones. These chaperones can help newly produced proteins fold correctly and can sometimes prevent proteins from forming harmful structures.
+
+However, proteins do not always fold correctly. A misfolded protein may lose its normal function or acquire abnormal interactions with other proteins. Misfolded proteins can sometimes stick together and form aggregates that are difficult for cells to remove.
+
+The accumulation of abnormal protein aggregates has been associated with several diseases. Examples include Alzheimer’s disease, Parkinson’s disease, Huntington’s disease, and some forms of amyloidosis. Different diseases involve different proteins and molecular mechanisms, but they share the broader problem of proteins adopting abnormal structures or accumulating in harmful ways.
+
+Cells have sophisticated systems for maintaining protein quality. They can recognize damaged or misfolded proteins, attempt to refold them, or break them down when they cannot be repaired. These processes are especially important because proteins are constantly being produced, modified, damaged, and replaced throughout our lives.
+
+Scientists are still studying why protein-folding systems sometimes fail and how these failures contribute to disease. Understanding these mechanisms could help researchers develop new approaches for detecting, preventing, or treating disorders involving protein misfolding.
+
+Protein folding shows just how much biological function depends on molecular structure. A protein may be made from the correct amino acids, yet if those molecules do not arrange themselves into the right shape, the protein may not work as intended.
+
+At the microscopic level, the difference between a functional protein and a harmful one can come down to something as fundamental as shape.`
+    },
 	  {
       title: "",
       date: "2026-09-9",
