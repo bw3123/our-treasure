@@ -2311,6 +2311,22 @@ https://www.scientificamerican.com/.../can-science.../`
   wednesday: [
 
 /*
+
+كيف يمكن لخلية واحدة أن "تعرف" مكانها في الجسم؟ — كيف تعرف الخلايا أنها يجب أن تصبح عينًا أو عظمًا أو جلدًا؟
+
+
+لماذا لا تتعارك خلايا الجسم السليمة مع بعضها؟ — كيف تعرف الخلية أن الخلية الأخرى "من نفس الجسم"؟
+
+هل النباتات تستطيع "تذكر" ما حدث لها؟ 🌱 — الذاكرة النباتية والتغيرات فوق الجينية.
+
+هل البكتيريا يمكن أن "تتعاون" وتنتحر من أجل المجموعة؟ — السلوك الجماعي والموت المبرمج عند الكائنات الدقيقة.
+
+كيف يمكن لطفيلي أن يجعل مضيفه يتصرف بطريقة تزيد احتمال افتراسه؟ — تطور السلوك كجزء من دورة حياة الطفيلي.
+
+لماذا بعض الكائنات لديها أعضاء لا نعرف حتى الآن لماذا تطورت بهذه الطريقة؟
+
+الدماغ الذي يأكل نفسه أثناء النوم — ماذا يحدث فعلًا للخلايا العصبية خلال النوم؟
+
 	  {
       title: "",
       date: "2026-07-22",
@@ -2320,6 +2336,54 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+	    {
+      title: "",
+      date: "2026-09-23",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/cell.png",
+		   ],
+      content: `How can a single cell “know” where it belongs in the body?
+
+How does a cell know it should become part of an eye, bone, or skin, when almost every cell carries essentially the same DNA?
+
+The answer begins with something fascinating: a cell doesn’t have a map telling it where it is, and no one gives it a direct command saying, “You are going to become part of the eye.”
+
+Instead, the cell reads its surrounding environment.
+
+During embryonic development, cells constantly exchange chemical signals. The concentration of these signals can vary from one region to another, meaning that a cell in one location may receive a very different set of instructions from a nearby cell.
+
+Cells detect these signals through receptors and translate them into changes inside the cell, especially by turning certain genes on or off.
+
+This is where cellular identity begins to emerge.
+
+A skin cell does not have a completely different genetic library from a bone or eye cell. They largely contain the same genetic information, but they use different parts of it.
+
+It is almost as if every cell has the same enormous book, but each cell reads a different set of chapters.
+
+And chemical signals are only part of the story.
+
+Cells also respond to their neighbors, the physical properties of the surrounding tissue, mechanical forces, and changes that occurred earlier during development.
+
+So when a developing cell becomes a neuron, a skin cell, or a bone cell, it isn’t consciously making a decision.
+
+It is responding to a continuous stream of information from its environment, and those responses gradually change which genes are active.
+
+Even more remarkably, cells don’t just receive signals. They send them too.
+
+One cell can influence its neighbors, those neighbors can influence others, and these interactions create patterns that guide the development of entire tissues and organs.
+
+So when we look at an eye, a bone, or a patch of skin, we are not simply looking at a collection of cells.
+
+We are looking at the result of an enormous conversation between cells, genes, chemical signals, and the physical environment.
+
+Perhaps the most fascinating question isn’t simply:
+
+“How does a cell know where it is?”
+
+It is:
+
+“How can billions of cells communicating with one another turn a tiny group of cells into an organized human body?”`
+    },
 	    {
       title: "",
       date: "2026-09-16",
