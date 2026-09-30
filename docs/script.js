@@ -2336,6 +2336,78 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+	   {
+      title: "",
+      date: "2026-09-30",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/white.webp",
+		   ],
+      content: `Why don’t healthy cells in our body attack each other?
+
+Inside the human body are trillions of cells belonging to different tissues and organs, living side by side every moment. Skin cells interact with neighboring cells, brain cells constantly communicate with one another, and immune cells move throughout the body.
+
+Yet healthy cells generally do not treat one another as foreign invaders.
+
+How does that work?
+
+The truth is that a cell does not “know” that another cell belongs to the same body in the way we recognize members of our own family.
+
+Instead, the body relies on a complex system of molecular markers and signals that helps distinguish what belongs to the body from what may represent a threat.
+
+Cells carry proteins and other molecules on their surfaces that act as molecular identification markers. Among the most important are molecules called major histocompatibility complex, or MHC.
+
+You can think of MHC molecules as tiny display panels on the surface of a cell.
+
+Cells use them to present fragments of proteins from inside the cell. Immune cells, especially T cells, can examine these displays and monitor what is happening inside the cell.
+
+When the signals look normal, there is usually no reason for an aggressive immune response.
+
+But if abnormal signals appear, such as fragments of viral proteins produced inside an infected cell, the immune system may recognize that something is wrong and respond.
+
+However, recognizing cells does not depend on MHC alone.
+
+There is an enormous network of cell-surface molecules and chemical signals that cells use to communicate with one another. There are also signals that help immune cells determine when to become active and when to stop.
+
+This leads to one of the most important concepts in immunology: immune tolerance.
+
+The immune system is not simply designed to attack everything that is different. It must also learn not to attack the body's own healthy components.
+
+During the development of immune cells, they go through selection processes that eliminate or control many cells that react too strongly against the body's own molecules.
+
+Additional mechanisms in tissues and throughout the immune system help suppress unnecessary immune responses.
+
+This balance is essential.
+
+An immune system that attacks everything would be just as dangerous as one that could not respond to threats.
+
+The body therefore needs to maintain a delicate balance:
+
+It must recognize danger without attacking itself.
+
+It must respond to infections without causing continuous damage to healthy tissues.
+
+It must monitor cells without destroying them simply because they are different.
+
+When this balance breaks down, autoimmune diseases can occur. In these conditions, the immune system mistakenly attacks the body's own tissues, although the exact mechanisms differ between diseases.
+
+It is also important to understand that the cells in our body are not all identical.
+
+A neuron is different from a liver cell. A muscle cell is different from a skin cell. Each has different functions and different molecular characteristics.
+
+Yet they all exist within the same larger biological system, with mechanisms that help the immune system recognize them as part of the body.
+
+So there is no single signal inside the body that simply tells a cell, “This cell is a friend, and that one is an enemy.”
+
+Instead, there is a sophisticated network of molecular markers, receptors, signals, monitoring systems, and inhibitory mechanisms working together.
+
+The immune system is therefore less like a simple security guard checking whether something is “foreign,” and more like a highly complex surveillance system constantly evaluating what is happening throughout the body.
+
+Healthy cells can coexist because the body continuously maintains this balance between recognition, communication, tolerance, and defense.
+
+In the end, “self-recognition” is not a decision made by individual cells.
+
+It is the result of an enormous molecular information system that allows the body to tolerate its own cells while remaining ready to respond when something truly goes wrong.`
+    },
 	    {
       title: "",
       date: "2026-09-23",
