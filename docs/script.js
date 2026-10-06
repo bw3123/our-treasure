@@ -2335,12 +2335,115 @@ https://www.scientificamerican.com/.../can-science.../`
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/Cheerios2.png"
 		   ],
       content: ``
-    },*/
+    },
+
+	{
+      title: "",
+      date: "2026-10-7",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/white-rabbit.avif",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/white-rabbit-1.webp",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/white-rabbit-2.jpg"
+		   ],
+      content: `Netflix made an anime adaptation of Devil May Cry.
+
+The main character is Dante, a half-human, half-demon, and the son of Sparda.
+
+But that's a topic for the next post.
+
+For now, I want to talk about the White Rabbit.
+
+An interesting character who is fighting against humans because of the way they mistreated and killed demons. His goal is basically revenge.
+
+But that wasn't the interesting part.
+
+What I found interesting was his personality.
+
+The White Rabbit was calm, intelligent, elegant, and extremely calculating.
+
+He didn't just have a plan.
+
+He planned everything like he was 10 steps ahead of everyone else.
+
+When his enemies thought they finally had him, he would turn around and show them exactly why they were wrong.
+
+They thought they had won?
+
+He would show them what failure actually looked like.
+
+Even when something seemed to go wrong for him, it often felt like it was already part of his plan.
+
+And the most interesting thing was that he showed almost no fear.
+
+No panic.
+
+No hesitation.
+
+He was always in control.
+
+He was a demon, or at least that's what we believed.
+
+Then we slowly learned his backstory.
+
+He was actually human.
+
+He had disguised himself as a demon because he wanted revenge on humans for the way they treated and killed demons.
+
+And this is where I think his character gets really interesting.
+
+Because as his disguise started getting ripped away, so did his personality.
+
+And honestly, the human version of the White Rabbit didn't last very long before we started seeing a completely different side of him.
+
+He became angry.
+
+He started raging.
+
+He relied more and more on violence.
+
+Instead of carefully planning his way out of situations, his solution became more like:
+
+Use violence. Destroy the problem. Keep going.
+
+The calm mastermind started disappearing.
+
+The more human he became, the more reckless and emotional he became.
+
+Until eventually, when the disguise was completely gone, we saw the White Rabbit as a human — nervous, screaming, shouting, panicking, and losing control.
+
+And I don't know if Netflix intentionally did this, but I found the contrast really interesting.
+
+White Rabbit as a demon:
+Calm. Calculating. Intelligent. Elegant. 10 steps ahead. Almost fearless. Even his failures seemed to be part of the plan.
+
+White Rabbit as a human:
+Angry. Emotional. Reckless. Violent. Raging. Losing control.
+
+And I don't think the point is that demons are good and humans are bad.
+
+Both sides were capable of horrible things, and the White Rabbit himself was far from innocent.
+
+What I find interesting is how the show almost connects his human identity with the loss of the personality he created for himself.
+
+The “demon” version of him was the calm, controlled mastermind.
+
+But once that identity was stripped away, we saw the human underneath.
+
+And that human was much more unstable.
+
+Maybe being human doesn't automatically make someone civilized.
+
+And maybe being a demon doesn't automatically make someone a monster.
+
+Sometimes the mask you create can become more controlled, more confident, and more powerful than the person underneath it.`
+    },
+	white.webp
+	*/
 	   {
       title: "",
       date: "2026-09-30",
       photos: [
-        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/white.webp",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/white-rabbit.avif",
 		   ],
       content: `Why don’t healthy cells in our body attack each other?
 
