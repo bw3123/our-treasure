@@ -2437,13 +2437,13 @@ And maybe being a demon doesn't automatically make someone a monster.
 
 Sometimes the mask you create can become more controlled, more confident, and more powerful than the person underneath it.`
     },
-	white.webp
+	
 	*/
 	   {
       title: "",
       date: "2026-09-30",
       photos: [
-        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/white-rabbit.avif",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/white.webp",
 		   ],
       content: `Why don’t healthy cells in our body attack each other?
 
