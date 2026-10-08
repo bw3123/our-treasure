@@ -2335,7 +2335,7 @@ https://www.scientificamerican.com/.../can-science.../`
         "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/Cheerios2.png"
 		   ],
       content: ``
-    },
+    },*/
 
 	{
       title: "",
@@ -2438,7 +2438,7 @@ And maybe being a demon doesn't automatically make someone a monster.
 Sometimes the mask you create can become more controlled, more confident, and more powerful than the person underneath it.`
     },
 	
-	*/
+	
 	   {
       title: "",
       date: "2026-09-30",
