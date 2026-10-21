@@ -2336,6 +2336,144 @@ https://www.scientificamerican.com/.../can-science.../`
 		   ],
       content: ``
     },*/
+	   {
+      title: "Different POVs Don't Make You Right — Devil May Cry",
+      date: "2026-10-21",
+      photos: [
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/twins1.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/twins2.jpg",
+        "https://cdn.jsdelivr.net/gh/bw3123/our-treasure@main/pics/twins3.jpg"
+		   ],
+      content: `Before we ask who is right in Devil May Cry, I think we need to understand both sides of the story.
+
+Dante — The Human World's Side
+
+Dante lives on Earth, in the human world. He works alongside Lady, who is connected to DARKCOM, the human government's anti-demon organization. His goal is to protect humanity from demons and stop them from conquering Earth.
+
+But Dante's story is more complicated than that.
+
+He and his twin brother Vergil were born to Eva, a human, and Sparda, a powerful demon. When they were children, demons attacked their home, and their mother died. Dante believed that Vergil had died as well.
+
+Despite being half-demon himself, Dante grew up in the human world. He came to care about humanity, and when he discovered that Vergil was still alive and serving Mundus, the demon king, he wanted to stop the war and save his brother.
+
+From Dante's perspective, he's fighting to protect innocent people and bring his brother back from the enemy's side.
+
+And honestly, it's easy to understand why we would side with him.
+
+But now let's look at the other side.
+
+Vergil — The Demon World's Side
+
+Vergil lives in Makai, the demon realm. He initially serves Mundus as one of his most powerful warriors.
+
+But unlike Dante, Vergil's childhood took a completely different turn.
+
+During the attack on their home, Vergil saw Dante and their mother fleeing and mistakenly believed that Eva had abandoned him. He was captured, tortured, and left traumatized.
+
+Eventually, Mundus freed him and trained him, presenting himself as Vergil's savior.
+
+Imagine being a child who believes his own mother abandoned him, losing his family, suffering at the hands of others, and then being rescued by someone who gives you strength, purpose, and a place to belong.
+
+Of course, Vergil would develop complicated feelings about humanity.
+
+He grew up in Makai, came to see it as his home, and believed that humans were attacking and killing demons simply because they were demons. Mundus used his suffering to cultivate his loyalty, convince him that humanity would never accept him, and turn his pain into a desire for revenge.
+
+From Vergil's perspective, he's protecting his home and the people who accepted him when he had nobody else.
+
+And here's where things get interesting.
+
+So, who's right?
+
+Naturally, as viewers, most of us are going to side with Dante.
+
+He's the main character. We follow his journey, understand his motivations, and see the world largely through his eyes.
+
+But what if the show had been told from Vergil's perspective instead?
+
+What if Vergil had been the main character, and Dante was the twin brother who abandoned him? What if we followed Vergil's suffering, watched him grow up in Makai, and saw humans constantly attacking the people he considered his family?
+
+Would we still be so quick to call Dante the good guy and Vergil the bad guy?
+
+I don't think the answer would be the same.
+
+And that's exactly the problem with judging a conflict from only one perspective.
+
+But we still haven't answered the original question.
+
+Who's actually right?
+
+My answer is: neither of them.
+
+Just because two sides are enemies doesn't mean one of them has to be right.
+
+Look at the humans.
+
+The human side uses Dante to fight its war. It convinces him that if he doesn't stop the demons, humanity itself will be destroyed. It gives him a reason to keep fighting and makes him believe that defeating the demons is the only way to save his brother.
+
+But the humans aren't innocent either.
+
+They kill innocent demons, treat an entire race as a threat, and show little regard for the lives of those caught on their side of the conflict. Even their allies can become disposable when they are no longer useful.
+
+Now look at the demons.
+
+They do the exact same thing.
+
+Innocent humans are killed and eaten, while weaker demons can be killed by those who hold power over them. The demon side isn't some innocent population simply defending itself. It has its own cruelty, hierarchy, and willingness to sacrifice others.
+
+And both sides use the twins.
+
+The humans use Dante's love for humanity and his desire to save Vergil to make him fight.
+
+Mundus uses Vergil's trauma, his need for belonging, and his desire for revenge to turn him against humanity.
+
+Both brothers have been shaped by their experiences, and both have been manipulated into believing that fighting the other side is the right thing to do.
+
+But here's what bothers me most.
+
+Both sides take the actions of individuals and use them to justify hatred toward an entire race.
+
+A human kills a demon? That becomes proof that humans are enemies of demons.
+
+A demon kills a human? That becomes proof that demons are monsters who must be destroyed.
+
+And instead of questioning the cycle, both sides use these incidents to justify doing more of the same.
+
+Sound familiar?
+
+The same cycle of hatred, the same justifications, the same propaganda. Each side points at the other side's crimes while conveniently ignoring its own.
+
+And the people caught in the middle are the ones who suffer.
+
+It's almost like a déjà vu from the real world. 
+
+Dante sees Vergil as someone who needs saving, but he doesn't fully understand the world that shaped his brother.
+
+Vergil sees Dante as someone who doesn't understand his suffering, but he doesn't fully understand the experiences that shaped Dante either.
+
+They're twin brothers who lost the same mother, yet grew up in different worlds and came to completely different conclusions about humanity.
+
+Neither brother is entirely innocent, but neither is simply evil for choosing the side they did. Their choices matter, but so do the people and circumstances that shaped those choices.
+
+And that's why I don't think this is simply a story about humans being good and demons being evil, or the other way around.
+
+It's a story about how two sides can both believe they're fighting for something right while committing terrible things in the process.
+
+So, no. I don't think either side is right.
+
+And I don't think choosing one side automatically makes you right, either.
+
+Understanding why someone fights is not the same as justifying what they do.
+
+You can understand Dante's desire to protect humanity without excusing everything the humans do.
+
+You can understand Vergil's pain and desire to protect his home without excusing the suffering he causes.
+
+Because at the end of the day, having a reason for your actions doesn't automatically make those actions right.
+
+And just because your enemy is guilty doesn't mean you're innocent.
+
+Sometimes, both sides are so convinced that they're the heroes of their own stories that they stop questioning whether they've become the very thing they're fighting against.`
+    },
 	  {
       title: "",
       date: "2026-10-11",
